@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Search</name>
+   <tag></tag>
+   <elementGuidId>942dfbc0-2a22-419c-ba87-61089828bf6a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@id='input-search-freelancer'])[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'input_search-freelancer' and @id = 'input-search-freelancer']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>input_search-freelancer</value>
+      <webElementGuid>7b14ad40-e64e-42ed-bcbe-e9d6d38bc7cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>input-search-freelancer</value>
+      <webElementGuid>c4d29689-b46c-41f8-baf1-4d295b606176</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>STA-HP-007-Lihat Portofolio Lainnya</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32a97bb0-43d1-490f-855f-047ebe276d0f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7f2e8fe1-5511-42ab-9f09-bf073edc54c0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7f2e8fe1-5511-42ab-9f09-bf073edc54c0</id>
+      <masked>false</masked>
+      <name>link_portfolio</name>
+   </variable>
+</TestCaseEntity>

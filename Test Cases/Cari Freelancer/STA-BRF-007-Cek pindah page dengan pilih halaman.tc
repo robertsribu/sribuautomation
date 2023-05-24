@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>STA-BRF-007-Cek pindah page dengan pilih halaman</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9c5c0508-7af5-4f5b-b8b3-1937ba00d1ee</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4cf6e27f-9afd-4686-85af-a80f59545c9e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4cf6e27f-9afd-4686-85af-a80f59545c9e</id>
+      <masked>false</masked>
+      <name>current_page</name>
+   </variable>
+</TestCaseEntity>

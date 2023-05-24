@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>STA-HP-005-Lihat Paket Job dari Homepage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df361717-13c0-4f0f-8c33-100461769e44</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7b9087ce-2ace-44cd-bf0d-4496048dc236</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7b9087ce-2ace-44cd-bf0d-4496048dc236</id>
+      <masked>false</masked>
+      <name>link_paket</name>
+   </variable>
+</TestCaseEntity>

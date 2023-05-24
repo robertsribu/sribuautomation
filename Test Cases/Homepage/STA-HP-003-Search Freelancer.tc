@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>STA-HP-003-Search Freelancer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3e11856-3096-4060-95d8-22a52d4cf327</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1b9c28d8-45ea-4fe3-b534-099ca8557bb2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1b9c28d8-45ea-4fe3-b534-099ca8557bb2</id>
+      <masked>false</masked>
+      <name>nama_freelancer</name>
+   </variable>
+</TestCaseEntity>

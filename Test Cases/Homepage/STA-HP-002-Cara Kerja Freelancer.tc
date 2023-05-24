@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>STA-HP-002-Cara Kerja Freelancer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>91ae21e6-b453-4d25-be1f-ab5063a7d52c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9c1ff7e3-8ae7-4974-8b4a-b522dd137d83</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9c1ff7e3-8ae7-4974-8b4a-b522dd137d83</id>
+      <masked>false</masked>
+      <name>link_cara_kerja_freelancer</name>
+   </variable>
+</TestCaseEntity>

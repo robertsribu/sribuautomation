@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>STA-BRF-002-Search Freelancer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5d821139-620c-41e7-853f-d605be19bff4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>91d63345-24b2-414d-a044-86b4613b8cb2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>91d63345-24b2-414d-a044-86b4613b8cb2</id>
+      <masked>false</masked>
+      <name>nama_freelancer</name>
+   </variable>
+</TestCaseEntity>
