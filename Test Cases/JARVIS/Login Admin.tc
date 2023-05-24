@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login_Admin</name>
+   <name>Login Admin</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>c3ea2514-4c95-4f50-8fc2-2530d234fd75</testCaseGuid>

@@ -14,4 +14,14 @@
       <initValue>''</initValue>
       <name>totaltagihan</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>PINV</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>juduljob</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

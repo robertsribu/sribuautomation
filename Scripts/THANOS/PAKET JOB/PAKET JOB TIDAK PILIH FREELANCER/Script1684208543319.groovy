@@ -34,14 +34,15 @@ WebUI.scrollToPosition(0, 200)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/p_Bandingkan Paket'))
+WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Button bandingkan paket'))
 
 WebUI.delay(1)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.delay(2)
+WebUI.delay(1)
 
+'pilih paket '
 if (paket == 'basic') {
     WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Pricing Basic'))
 } else if (paket == 'plus') {
@@ -52,7 +53,7 @@ if (paket == 'basic') {
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/button_Pilih Paket'))
+WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Button pilih paket'))
 
 WebUI.setText(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/Field jelaskan kebutuhan'), kebutuhan)
 
@@ -80,9 +81,9 @@ for (def index : (0..12)) {
 
     String data = monthyear
 
-    System.print(data + '     ----     ')
+    System.print('bulan:' + data)
 
-    if (data == bulan) {
+    if (data == bulandeadline) {
         break
     } else {
         WebUI.click(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/Button next datepicker'))
@@ -91,11 +92,11 @@ for (def index : (0..12)) {
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/valuetanggal', [('dateid') : tanggal]))
+WebUI.click(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/valuetanggal', [('dateid') : tanggaldeadline]))
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/Button beli paket'))
 
@@ -104,4 +105,113 @@ WebUI.click(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo
 WebUI.delay(1)
 
 WebUI.takeFullPageScreenshot()
+
+WebUI.scrollToPosition(0, 100)
+
+'pilih metode pembayaran'
+if (bayar == 'deposit') {
+    WebUI.click(findTestObject('THANOS/Halaman Pembayaran/01-Deposit/Bayar pakai Deposit'))
+
+    WebUI.click(findTestObject('THANOS/Halaman Pembayaran/Button proses pembayaran'))
+
+    WebUI.click(findTestObject('THANOS/Halaman Pembayaran/01-Deposit/button submit deposit'))
+
+    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/01-Deposit/input password deposit'), godpassowrd)
+
+    WebUI.click(findTestObject('THANOS/Halaman Pembayaran/01-Deposit/button submit input password'))
+
+    WebUI.delay(3)
+
+    WebUI.takeFullPageScreenshot()
+
+    WebUI.delay(1)
+} else if (bayar == 'transfer') {
+    WebUI.click(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/Bayar pakai bank transfer'))
+
+    WebUI.scrollToPosition(0, 200)
+
+    GlobalVariable.juduljob = WebUI.getText(findTestObject('Object Repository/THANOS/Halaman Pembayaran/Text Judul Pekerjaan'))
+
+    String judul = GlobalVariable.juduljob
+
+    String inputjudul = judul
+
+    println('judul pekerjaan : ' + inputjudul)
+
+    GlobalVariable.PINV = WebUI.getText(findTestObject('Object Repository/THANOS/Halaman Pembayaran/Text PINV'))
+
+    String inputpinv = GlobalVariable.PINV
+
+    String pinv = inputpinv
+
+    println('PINV: ' + pinv)
+
+    GlobalVariable.totaltagihan = WebUI.getText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/totalbayar'))
+
+    String input = GlobalVariable.totaltagihan
+
+    String nominaltagihan = input.replaceAll('[^0-9]', '')
+
+    println('Nominal Tagihan:' + nominaltagihan)
+
+    WebUI.click(findTestObject('THANOS/Halaman Pembayaran/Button proses pembayaran'))
+
+    WebUI.delay(1)
+
+    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/01-input jumlah pembayaran'), nominaltagihan)
+
+    WebUI.scrollToPosition(0, 230)
+
+    WebUI.click(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/02-input tanggal'))
+
+    WebUI.delay(1)
+
+    for (def index : (0..12)) {
+        String monthyear = WebUI.getText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/03-ValueBulan'), FailureHandling.CONTINUE_ON_FAILURE)
+
+        String data = monthyear
+
+        System.print('bulan:' + data)
+
+        if (data == bulanbayar) {
+            break
+        } else {
+            WebUI.click(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/a_Tanggal Pembayaran_prev__W6fri'))
+        }
+    }
+    
+    WebUI.delay(1)
+
+    WebUI.click(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/04-ValueTanggal', [('id') : tanggalbayar]))
+
+    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/05-Input nama Bank'), 'BANK CENTRAL ASIA')
+
+    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/06-input cabang bank'), 'JAKARTA')
+
+    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/07-input no rekening'), '0099887766')
+
+    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/08-nama pemegang rekening'), 'LOREM IPSUM')
+
+    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/09-input catatan'), 'PEMBAYARAN TESTING')
+
+    WebUI.scrollToPosition(0, 600)
+
+    WebUI.uploadFile(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/10-upload file'), fileupload)
+
+    WebUI.delay(1)
+
+    WebUI.takeFullPageScreenshot()
+
+    WebUI.delay(1)
+
+    WebUI.scrollToPosition(0, 750)
+
+    WebUI.click(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/11-button konfirmasi bayar'))
+
+    WebUI.delay(1)
+
+    WebUI.takeFullPageScreenshot()
+
+    WebUI.closeBrowser()
+}
 

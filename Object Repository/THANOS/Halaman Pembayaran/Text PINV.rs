@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button pilih paket</name>
+   <name>Text PINV</name>
    <tag></tag>
-   <elementGuidId>857982eb-7074-42c5-9947-764bbaaeefe4</elementGuidId>
+   <elementGuidId>b75b30ae-641e-48ed-844a-6da2cde13520</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'btn_choose_package_job']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>btn_choose_package_job</value>
+         <value>//*[@data-testid = 'text_invoice_id_right']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>btn_choose_package_job</value>
+      <value>text_invoice_id_right</value>
    </webElementProperties>
 </WebElementEntity>

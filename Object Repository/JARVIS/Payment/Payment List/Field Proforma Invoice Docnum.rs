@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button pilih paket</name>
+   <name>Field Proforma Invoice Docnum</name>
    <tag></tag>
-   <elementGuidId>857982eb-7074-42c5-9947-764bbaaeefe4</elementGuidId>
+   <elementGuidId>0ce5b048-6c95-4e0f-8dc7-c5f3531978c2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'btn_choose_package_job']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>btn_choose_package_job</value>
+         <value>//*[@data-testid = 'txt_pinvdocnum']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>btn_choose_package_job</value>
+      <value>txt_pinvdocnum</value>
    </webElementProperties>
 </WebElementEntity>

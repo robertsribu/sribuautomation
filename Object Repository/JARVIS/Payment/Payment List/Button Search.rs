@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button pilih paket</name>
+   <name>Button Search</name>
    <tag></tag>
-   <elementGuidId>857982eb-7074-42c5-9947-764bbaaeefe4</elementGuidId>
+   <elementGuidId>838baa4e-490e-4ec9-8d70-9bd10c25ec0c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'btn_choose_package_job']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>btn_choose_package_job</value>
+         <value>//*[@data-testid = 'btn_search_list']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>btn_choose_package_job</value>
+      <value>btn_search_list</value>
    </webElementProperties>
 </WebElementEntity>

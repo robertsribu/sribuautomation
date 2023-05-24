@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button pilih paket</name>
+   <name>Field Proforma Unique Code</name>
    <tag></tag>
-   <elementGuidId>857982eb-7074-42c5-9947-764bbaaeefe4</elementGuidId>
+   <elementGuidId>70a4117f-b6be-4f6b-b29e-091b86b4dbb6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'btn_choose_package_job']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>btn_choose_package_job</value>
+         <value>//*[@data-testid = 'num_uniquecode']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>btn_choose_package_job</value>
+      <value>num_uniquecode</value>
    </webElementProperties>
 </WebElementEntity>

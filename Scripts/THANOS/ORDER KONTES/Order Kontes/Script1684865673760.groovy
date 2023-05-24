@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('THANOS/LOGIN/Login'), [:], FailureHandling.STOP
 
 WebUI.click(findTestObject('THANOS/Homepage/01-button order'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('THANOS/Homepage/02-Order Kontes'))
 
@@ -116,13 +116,29 @@ if (bayar == 'deposit') {
 
     WebUI.scrollToPosition(0, 200)
 
+    GlobalVariable.juduljob = WebUI.getText(findTestObject('Object Repository/THANOS/Halaman Pembayaran/Text Judul Pekerjaan'))
+
+    String judul = GlobalVariable.juduljob
+
+    String inputjudul = judul
+
+    println('judul pekerjaan : ' + inputjudul)
+
+    GlobalVariable.PINV = WebUI.getText(findTestObject('Object Repository/THANOS/Halaman Pembayaran/Text PINV'))
+
+    String inputpinv = GlobalVariable.PINV
+
+    String pinv = inputpinv
+
+    println('PINV: ' + pinv)
+
     GlobalVariable.totaltagihan = WebUI.getText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/totalbayar'))
 
     String input = GlobalVariable.totaltagihan
 
     String nominaltagihan = input.replaceAll('[^0-9]', '')
 
-    println(' --- ' + nominaltagihan)
+    println('nominal tagihan : ' + nominaltagihan)
 
     WebUI.click(findTestObject('THANOS/Halaman Pembayaran/Button proses pembayaran'))
 
@@ -150,19 +166,19 @@ if (bayar == 'deposit') {
         }
     }
     
-    WebUI.delay(2)
+    WebUI.delay(1)
 
     WebUI.click(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/04-ValueTanggal', [('id') : tanggal]))
 
-    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/05-Input nama Bank'), 'asdasd')
+    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/05-Input nama Bank'), 'BANK MANDIRI')
 
-    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/06-input cabang bank'), 'asdasd')
+    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/06-input cabang bank'), 'DKI JAKARTA')
 
-    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/07-input no rekening'), 'asdasd')
+    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/07-input no rekening'), '1100110022')
 
-    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/08-nama pemegang rekening'), 'asdasd')
+    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/08-nama pemegang rekening'), 'JAMES')
 
-    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/09-input catatan'), 'asdasd')
+    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/09-input catatan'), 'INI CATATAN UNTUK PEMBAYARAN')
 
     WebUI.scrollToPosition(0, 600)
 
@@ -178,6 +194,10 @@ if (bayar == 'deposit') {
 
     WebUI.click(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/11-button konfirmasi bayar'))
 
-    WebUI.takeScreenshot('')
+    WebUI.takeScreenshot()
+
+    WebUI.delay(1)
+
+    WebUI.closeBrowser()
 }
 

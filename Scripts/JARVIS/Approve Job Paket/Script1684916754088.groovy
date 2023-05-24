@@ -17,25 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('THANOS/LOGIN/Login'), [('usernameclient') : 'ekoclient', ('passwordclient') : 'mobile123+'], 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('JARVIS/Login Admin'), [('useradmin') : 'rezavoe', ('passwordadmin') : 'mobile123+'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('01_tagihan'))
+WebUI.click(findTestObject('JARVIS/Job/01-button job'))
 
-WebUI.click(findTestObject('02_konfirmbayar'))
+WebUI.click(findTestObject('JARVIS/Job/02-pilih job'))
+
+WebUI.setText(findTestObject('JARVIS/Job/03-input title job'), GlobalVariable.juduljob)
+
+WebUI.click(findTestObject('JARVIS/Job/03-button search'))
+
+WebUI.click(findTestObject('JARVIS/Job/04-button detail job'))
+
+WebUI.click(findTestObject('JARVIS/Job/05-approve job'))
+
+WebUI.takeFullPageScreenshot()
 
 WebUI.delay(1)
 
-GlobalVariable.totaltagihan = WebUI.getAttribute(findTestObject('inputbayar'), 'placeholder')
-System.print("Total nominal:" + GlobalVariable.totaltagihan)
-
-String input = GlobalVariable.totaltagihan
-
-String inputpembayaran = input.replaceAll('[^0-9]', '')
-
-println("Nominal Jumlah Bayar:" + inputpembayaran)
-
-WebUI.setText(findTestObject('inputbayar'), inputpembayaran)
-
-WebUI.delay(2)
+WebUI.closeBrowser()
 

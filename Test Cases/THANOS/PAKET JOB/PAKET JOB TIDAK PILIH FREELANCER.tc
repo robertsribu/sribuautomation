@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>ed969b2c-f471-4ace-909f-b031d68aabcb</testCaseGuid>
    <variable>
-      <defaultValue>'asd'</defaultValue>
+      <defaultValue>'basic'</defaultValue>
       <description></description>
       <id>3ee3ac98-df57-4927-bf6a-e44448678ad7</id>
       <masked>false</masked>
@@ -38,13 +38,48 @@
       <description></description>
       <id>468b542e-8785-4982-839e-bdc073a967fc</id>
       <masked>false</masked>
-      <name>tanggal</name>
+      <name>tanggalbayar</name>
    </variable>
    <variable>
-      <defaultValue>'Agustus 2023'</defaultValue>
+      <defaultValue>'Maret 2023'</defaultValue>
+      <description></description>
+      <id>1d4d3ceb-5390-49a0-98d8-11c6b83e3959</id>
+      <masked>false</masked>
+      <name>bulanbayar</name>
+   </variable>
+   <variable>
+      <defaultValue>'15'</defaultValue>
+      <description></description>
+      <id>afc8175b-99d3-4329-a9e1-577946b6c08c</id>
+      <masked>false</masked>
+      <name>tanggaldeadline</name>
+   </variable>
+   <variable>
+      <defaultValue>'Juni 2023'</defaultValue>
       <description></description>
       <id>3ec2654f-6a7f-4323-90fb-a84d5a2a09b6</id>
       <masked>false</masked>
-      <name>bulan</name>
+      <name>bulandeadline</name>
+   </variable>
+   <variable>
+      <defaultValue>'transfer'</defaultValue>
+      <description></description>
+      <id>f6bf8c89-f3f7-4b59-930a-fef320d359af</id>
+      <masked>false</masked>
+      <name>bayar</name>
+   </variable>
+   <variable>
+      <defaultValue>'vamfMTv6qshyTZrXqRVQdqxQ1'</defaultValue>
+      <description></description>
+      <id>caef87f3-2623-43f7-909c-e94dc917241f</id>
+      <masked>false</masked>
+      <name>godpassowrd</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\Users\\ekokr\\OneDrive\\Pictures\\01. Katalon Upload\\dummy.png'</defaultValue>
+      <description></description>
+      <id>22b1cd06-f0e5-46d6-82f4-1228c2965729</id>
+      <masked>false</masked>
+      <name>fileupload</name>
    </variable>
 </TestCaseEntity>

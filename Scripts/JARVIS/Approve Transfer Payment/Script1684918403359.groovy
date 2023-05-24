@@ -17,31 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('JARVIS/Login_Admin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('JARVIS/Login Admin'), [('useradmin') : 'rezavoe', ('passwordadmin') : 'mobile123+'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('JARVIS/Approve Job Public/01-button job'))
+WebUI.click(findTestObject('JARVIS/Payment/Button Payment'))
 
-WebUI.click(findTestObject('JARVIS/Approve Job Public/02-pilih job'))
+WebUI.click(findTestObject('JARVIS/Payment/Payment List/Button Payment List'), FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('JARVIS/Approve Job Public/03-input title job'), titlejob)
+WebUI.setText(findTestObject('JARVIS/Payment/Payment List/Field Proforma Invoice Docnum'), GlobalVariable.PINV)
 
-WebUI.click(findTestObject('JARVIS/Approve Job Public/03-button search'))
+WebUI.click(findTestObject('JARVIS/Payment/Payment List/Button Search'))
 
-WebUI.click(findTestObject('JARVIS/Approve Job Public/04-button detail job'))
+WebUI.click(findTestObject('JARVIS/Payment/Payment List/Button Docnum Pay'))
 
-WebUI.takeScreenshot()
+WebUI.click(findTestObject('JARVIS/Payment/Payment List/Tab Payment'))
 
-WebUI.scrollToElement(findTestObject('JARVIS/Approve Job Public/05-approve job'), 0)
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('JARVIS/Approve Job Public/05-approve job'))
-
-WebUI.delay(1)
-
-WebUI.scrollToPosition(0, 0)
+WebUI.click(findTestObject('JARVIS/Payment/Payment List/Button Approve Payment'))
 
 WebUI.takeFullPageScreenshot()
+
+WebUI.delay(1)
 
 WebUI.closeBrowser()
 

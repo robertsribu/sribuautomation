@@ -17,25 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('THANOS/LOGIN/Login'), [('usernameclient') : 'ekoclient', ('passwordclient') : 'mobile123+'], 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('JARVIS/Login Admin'), [('useradmin') : 'rezavoe', ('passwordadmin') : 'mobile123+'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('01_tagihan'))
+WebUI.click(findTestObject('JARVIS/Contest/01-button Contest'))
 
-WebUI.click(findTestObject('02_konfirmbayar'))
+WebUI.click(findTestObject('JARVIS/Contest/02-button pilih contest'))
+
+WebUI.setText(findTestObject('JARVIS/Contest/03-input search'), titlekontes)
+
+WebUI.click(findTestObject('JARVIS/Contest/04-button search'))
+
+WebUI.takeScreenshot()
 
 WebUI.delay(1)
 
-GlobalVariable.totaltagihan = WebUI.getAttribute(findTestObject('inputbayar'), 'placeholder')
-System.print("Total nominal:" + GlobalVariable.totaltagihan)
+WebUI.click(findTestObject('JARVIS/Contest/05-button pilih detail kontes'))
 
-String input = GlobalVariable.totaltagihan
+WebUI.delay(1)
 
-String inputpembayaran = input.replaceAll('[^0-9]', '')
+WebUI.takeFullPageScreenshot()
 
-println("Nominal Jumlah Bayar:" + inputpembayaran)
+WebUI.scrollToElement(findTestObject('JARVIS/Contest/scrollelement1'), 0)
 
-WebUI.setText(findTestObject('inputbayar'), inputpembayaran)
+WebUI.click(findTestObject('JARVIS/Contest/06-button approve'))
 
-WebUI.delay(2)
+WebUI.delay(1)
+
+WebUI.takeFullPageScreenshot()
 

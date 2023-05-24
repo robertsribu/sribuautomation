@@ -17,31 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('JARVIS/Login_Admin'), [('useradmin') : 'rezavoe', ('passwordadmin') : 'mobile123+'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('JARVIS/Login Admin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('JARVIS/Approve Kontes/01-button Contest'))
+WebUI.click(findTestObject('JARVIS/Job/01-button job'))
 
-WebUI.click(findTestObject('JARVIS/Approve Kontes/02-button pilih contest'))
+WebUI.click(findTestObject('JARVIS/Job/02-pilih job'))
 
-WebUI.setText(findTestObject('JARVIS/Approve Kontes/03-input search'), titlekontes)
+WebUI.setText(findTestObject('JARVIS/Job/03-input title job'), titlejob)
 
-WebUI.click(findTestObject('JARVIS/Approve Kontes/04-button search'))
+WebUI.click(findTestObject('JARVIS/Job/03-button search'))
+
+WebUI.click(findTestObject('JARVIS/Job/04-button detail job'))
 
 WebUI.takeScreenshot()
 
+WebUI.scrollToElement(findTestObject('JARVIS/Job/05-approve job'), 0)
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('JARVIS/Job/05-approve job'))
+
 WebUI.delay(1)
 
-WebUI.click(findTestObject('JARVIS/Approve Kontes/05-button pilih detail kontes'))
-
-WebUI.delay(1)
+WebUI.scrollToPosition(0, 0)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.scrollToElement(findTestObject('JARVIS/Approve Kontes/scrollelement1'), 0)
-
-WebUI.click(findTestObject('JARVIS/Approve Kontes/06-button approve'))
-
-WebUI.delay(1)
-
-WebUI.takeFullPageScreenshot()
+WebUI.closeBrowser()
 
