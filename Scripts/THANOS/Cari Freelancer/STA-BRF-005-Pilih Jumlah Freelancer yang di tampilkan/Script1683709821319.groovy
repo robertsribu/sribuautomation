@@ -23,25 +23,33 @@ WebUI.setViewPortSize(1440, 900)
 
 WebUI.navigateToUrl('http://128.199.177.111:8002/')
 
-WebUI.click(findTestObject('THANOS/Homepage/01-button login'))
+WebUI.click(findTestObject('THANOS/Homepage/Menu Cari Freelancer'))
 
-WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Halaman login'), 0)
+WebUI.click(findTestObject('THANOS/Cari Freelancer/Dropdown Jumlah freelancer yang di lihat'))
 
-WebUI.setText(findTestObject('THANOS/Halaman Login/02-username'), usernameclient)
+WebUI.click(findTestObject('THANOS/Cari Freelancer/Item per page 24'))
 
-WebUI.setText(findTestObject('THANOS/Halaman Login/03-password'), passwordclient)
+WebUI.verifyElementPresent(findTestObject('THANOS/Cari Freelancer/Card Freelancer urutan ke 24'), 0)
 
-WebUI.click(findTestObject('THANOS/Halaman Login/04-icon mata'))
+WebUI.click(findTestObject('THANOS/Cari Freelancer/Dropdown Jumlah freelancer yang di lihat'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('THANOS/Cari Freelancer/Item per page 36'))
 
-WebUI.takeScreenshot()
+WebUI.verifyElementPresent(findTestObject('THANOS/Cari Freelancer/Card Freelancer urutan ke 36'), 0)
 
-WebUI.click(findTestObject('THANOS/Halaman Login/05-submit login'))
+WebUI.click(findTestObject('THANOS/Cari Freelancer/Dropdown Jumlah freelancer yang di lihat'))
 
-WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Berhasil login'), 0)
+WebUI.click(findTestObject('THANOS/Cari Freelancer/Item per page 48'))
+
+WebUI.verifyElementPresent(findTestObject('THANOS/Cari Freelancer/Card Freelancer urutan ke 48'), 0)
+
+WebUI.click(findTestObject('THANOS/Cari Freelancer/Dropdown Jumlah freelancer yang di lihat'))
+
+WebUI.click(findTestObject('THANOS/Cari Freelancer/Item per page 60'))
+
+WebUI.verifyElementPresent(findTestObject('THANOS/Cari Freelancer/Card Freelancer urutan ke 60'), 0)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.delay(1)
+WebUI.closeBrowser()
 

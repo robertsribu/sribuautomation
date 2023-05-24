@@ -23,25 +23,17 @@ WebUI.setViewPortSize(1440, 900)
 
 WebUI.navigateToUrl('http://128.199.177.111:8002/')
 
-WebUI.click(findTestObject('THANOS/Homepage/01-button login'))
+WebUI.mouseOver(findTestObject('THANOS/Landing Page/Kategori Desain Grafis dan Branding'))
 
-WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Halaman login'), 0)
+WebUI.click(findTestObject('THANOS/Landing Page/Desain Logo/Sub Kategori Desain Logo'))
 
-WebUI.setText(findTestObject('THANOS/Halaman Login/02-username'), usernameclient)
+WebUI.click(findTestObject('THANOS/Landing Page/Desain Logo/Button Cek Harga Paket'))
 
-WebUI.setText(findTestObject('THANOS/Halaman Login/03-password'), passwordclient)
+WebUI.verifyElementVisible(findTestObject('THANOS/Landing Page/Desain Logo/H3 Harga Paket'))
 
-WebUI.click(findTestObject('THANOS/Halaman Login/04-icon mata'))
-
-WebUI.delay(1)
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('THANOS/Halaman Login/05-submit login'))
-
-WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Berhasil login'), 0)
+WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.delay(1)
+WebUI.closeBrowser()
 

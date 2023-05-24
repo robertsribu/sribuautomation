@@ -20,9 +20,9 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('THANOS/LOGIN/Login'), [('usernameclient') : 'ekoclient', ('passwordclient') : 'mobile123+'], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('THANOS/Homepage - Login/01-button order'))
+WebUI.click(findTestObject('THANOS/Homepage/01-button order'))
 
-WebUI.click(findTestObject('THANOS/Homepage - Login/03-Button lihat paket'))
+WebUI.click(findTestObject('THANOS/Homepage/03-Button lihat paket'))
 
 WebUI.delay(1)
 

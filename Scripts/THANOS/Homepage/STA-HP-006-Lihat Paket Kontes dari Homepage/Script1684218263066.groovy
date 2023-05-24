@@ -23,25 +23,15 @@ WebUI.setViewPortSize(1440, 900)
 
 WebUI.navigateToUrl('http://128.199.177.111:8002/')
 
-WebUI.click(findTestObject('THANOS/Homepage/01-button login'))
-
-WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Halaman login'), 0)
-
-WebUI.setText(findTestObject('THANOS/Halaman Login/02-username'), usernameclient)
-
-WebUI.setText(findTestObject('THANOS/Halaman Login/03-password'), passwordclient)
-
-WebUI.click(findTestObject('THANOS/Halaman Login/04-icon mata'))
+WebUI.click(findTestObject('THANOS/Homepage/Button Order Kontes Desain Home'))
 
 WebUI.delay(1)
 
-WebUI.takeScreenshot()
+link_paket_kontes = WebUI.getUrl()
 
-WebUI.click(findTestObject('THANOS/Halaman Login/05-submit login'))
-
-WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Berhasil login'), 0)
+WebUI.verifyMatch(link_paket_kontes, 'http://128.199.177.111:8002/id/packages?category=design-contest', false)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.delay(1)
+WebUI.closeBrowser()
 

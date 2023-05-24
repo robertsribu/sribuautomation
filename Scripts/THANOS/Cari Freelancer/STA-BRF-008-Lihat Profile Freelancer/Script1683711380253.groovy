@@ -23,25 +23,18 @@ WebUI.setViewPortSize(1440, 900)
 
 WebUI.navigateToUrl('http://128.199.177.111:8002/')
 
-WebUI.click(findTestObject('THANOS/Homepage/01-button login'))
+WebUI.click(findTestObject('THANOS/Homepage/Menu Cari Freelancer'))
 
-WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Halaman login'), 0)
+username_browse_freelancer = WebUI.getText(findTestObject('THANOS/Cari Freelancer/Nama Freelancer'))
 
-WebUI.setText(findTestObject('THANOS/Halaman Login/02-username'), usernameclient)
+WebUI.click(findTestObject('THANOS/Cari Freelancer/Card Freelancer urutan 1'))
 
-WebUI.setText(findTestObject('THANOS/Halaman Login/03-password'), passwordclient)
+'Belum ada data test id\r\n'
+username_profile = WebUI.getText(findTestObject('THANOS/Profile Freelancer/Username'))
 
-WebUI.click(findTestObject('THANOS/Halaman Login/04-icon mata'))
-
-WebUI.delay(1)
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('THANOS/Halaman Login/05-submit login'))
-
-WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Berhasil login'), 0)
+WebUI.verifyMatch(username_browse_freelancer, username_profile, false)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.delay(1)
+WebUI.closeBrowser()
 

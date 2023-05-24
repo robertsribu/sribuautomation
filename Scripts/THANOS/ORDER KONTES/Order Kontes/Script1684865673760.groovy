@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('THANOS/LOGIN/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('THANOS/Homepage - Login/01-button order'))
+WebUI.click(findTestObject('THANOS/Homepage/01-button order'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('THANOS/Homepage - Login/02-Order Kontes'))
+WebUI.click(findTestObject('THANOS/Homepage/02-Order Kontes'))
 
 WebUI.scrollToPosition(0, 100)
 

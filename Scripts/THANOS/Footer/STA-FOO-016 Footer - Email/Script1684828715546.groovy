@@ -23,25 +23,13 @@ WebUI.setViewPortSize(1440, 900)
 
 WebUI.navigateToUrl('http://128.199.177.111:8002/')
 
-WebUI.click(findTestObject('THANOS/Homepage/01-button login'))
+email_sribu = WebUI.getText(findTestObject('THANOS/Footer/Footer Email'))
 
-WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Halaman login'), 0)
+WebUI.verifyMatch(email_sribu, 'ask@sribu.com', false)
 
-WebUI.setText(findTestObject('THANOS/Halaman Login/02-username'), usernameclient)
-
-WebUI.setText(findTestObject('THANOS/Halaman Login/03-password'), passwordclient)
-
-WebUI.click(findTestObject('THANOS/Halaman Login/04-icon mata'))
-
-WebUI.delay(1)
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('THANOS/Halaman Login/05-submit login'))
-
-WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Berhasil login'), 0)
+WebUI.scrollToElement(findTestObject('THANOS/Footer/Footer Email'), 0)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.delay(1)
+WebUI.closeBrowser()
 

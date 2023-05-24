@@ -23,25 +23,15 @@ WebUI.setViewPortSize(1440, 900)
 
 WebUI.navigateToUrl('http://128.199.177.111:8002/')
 
-WebUI.click(findTestObject('THANOS/Homepage/01-button login'))
+WebUI.click(findTestObject('THANOS/Footer/Footer Kebijakan Privasi'))
 
-WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Halaman login'), 0)
+link_privasi = WebUI.getUrl()
 
-WebUI.setText(findTestObject('THANOS/Halaman Login/02-username'), usernameclient)
+WebUI.verifyMatch(link_privasi, 'http://128.199.177.111:8002/id/privacy', false)
 
-WebUI.setText(findTestObject('THANOS/Halaman Login/03-password'), passwordclient)
-
-WebUI.click(findTestObject('THANOS/Halaman Login/04-icon mata'))
-
-WebUI.delay(1)
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('THANOS/Halaman Login/05-submit login'))
-
-WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Berhasil login'), 0)
+WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.delay(1)
+WebUI.closeBrowser()
 
