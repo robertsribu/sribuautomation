@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Approve_Job Public</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09c46e03-aebe-4a17-8658-1958ab67add0</testCaseGuid>
+   <variable>
+      <defaultValue>'CONTOH JOBJOBJOB'</defaultValue>
+      <description></description>
+      <id>3e3d7f7e-5e45-4fd3-955b-99995b11ac3c</id>
+      <masked>false</masked>
+      <name>titlejob</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Validasi Job Berhasil dibuat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>62a71880-04ec-4cb0-a269-233fcc9c1945</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8768227e-0d4a-44b3-b86c-0e10b39a37c3</id>
+      <masked>false</masked>
+      <name>job</name>
+   </variable>
+</TestCaseEntity>

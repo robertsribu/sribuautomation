@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Approve_Kontes</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e13f111a-8ccb-4b76-8f16-a8b7cca18e8b</testCaseGuid>
+   <variable>
+      <defaultValue>'DESAIN KONTES LUCU'</defaultValue>
+      <description></description>
+      <id>32d58777-2b2a-4412-93e9-8c5709d67e35</id>
+      <masked>false</masked>
+      <name>titlekontes</name>
+   </variable>
+</TestCaseEntity>

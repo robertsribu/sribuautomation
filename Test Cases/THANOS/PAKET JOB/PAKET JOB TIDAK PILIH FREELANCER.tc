@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PAKET JOB TIDAK PILIH FREELANCER</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed969b2c-f471-4ace-909f-b031d68aabcb</testCaseGuid>
+   <variable>
+      <defaultValue>'asd'</defaultValue>
+      <description></description>
+      <id>3ee3ac98-df57-4927-bf6a-e44448678ad7</id>
+      <masked>false</masked>
+      <name>paket</name>
+   </variable>
+   <variable>
+      <defaultValue>'Paket Job Desain Kontes Paket Job Desain Kontes Paket Job Desain Kontes Paket Job Desain Kontes Paket Job Desain Kontes'</defaultValue>
+      <description></description>
+      <id>adb30c53-7bbe-495d-8d7c-564f5686df12</id>
+      <masked>false</masked>
+      <name>kebutuhan</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\Users\\ekokr\\OneDrive\\Pictures\\01. Katalon Upload\\dummy.png'</defaultValue>
+      <description></description>
+      <id>cb19c40e-e682-4833-9776-0eed4e7a48f3</id>
+      <masked>false</masked>
+      <name>dokumen</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>d59494c1-0115-4549-8dd1-1a86491655c2</id>
+      <masked>false</masked>
+      <name>industri</name>
+   </variable>
+   <variable>
+      <defaultValue>'15'</defaultValue>
+      <description></description>
+      <id>468b542e-8785-4982-839e-bdc073a967fc</id>
+      <masked>false</masked>
+      <name>tanggal</name>
+   </variable>
+   <variable>
+      <defaultValue>'Agustus 2023'</defaultValue>
+      <description></description>
+      <id>3ec2654f-6a7f-4323-90fb-a84d5a2a09b6</id>
+      <masked>false</masked>
+      <name>bulan</name>
+   </variable>
+</TestCaseEntity>

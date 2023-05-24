@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_Admin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3ea2514-4c95-4f50-8fc2-2530d234fd75</testCaseGuid>
+   <variable>
+      <defaultValue>'rezavoe'</defaultValue>
+      <description></description>
+      <id>2fff0e77-b30f-41c5-99b7-942bb370c871</id>
+      <masked>false</masked>
+      <name>useradmin</name>
+   </variable>
+   <variable>
+      <defaultValue>'mobile123+'</defaultValue>
+      <description></description>
+      <id>cd7d30ff-5de6-4524-8319-7bf10ed27b3b</id>
+      <masked>false</masked>
+      <name>passwordadmin</name>
+   </variable>
+</TestCaseEntity>

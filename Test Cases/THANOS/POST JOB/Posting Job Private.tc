@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Posting Job Private</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90b3f926-cded-47a8-b821-2b2bed3f94f6</testCaseGuid>
+   <variable>
+      <defaultValue>'job'</defaultValue>
+      <description>pilih order</description>
+      <id>ebb4f43a-bb4f-4d7c-8b1b-1cf5118c834e</id>
+      <masked>false</masked>
+      <name>order</name>
+   </variable>
+   <variable>
+      <defaultValue>'ekokrismn'</defaultValue>
+      <description></description>
+      <id>e083ec6e-81d5-49eb-89a3-8485148a63ff</id>
+      <masked>false</masked>
+      <name>freelancer</name>
+   </variable>
+   <variable>
+      <defaultValue>'BUAT JOB TESTING TESTING'</defaultValue>
+      <description></description>
+      <id>3b07fc09-50b6-4bad-b508-e74677128f3a</id>
+      <masked>false</masked>
+      <name>juduljob</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description>buka dropdown kategori</description>
+      <id>26706ae0-9fde-4468-adb7-c6d86642ff6b</id>
+      <masked>false</masked>
+      <name>catid</name>
+   </variable>
+   <variable>
+      <defaultValue>'Penulisan &amp; Penerjemahan '</defaultValue>
+      <description>pilih kategori</description>
+      <id>de2f4cf1-5673-4e54-87a8-8aad64c38bd0</id>
+      <masked>false</masked>
+      <name>textcategory</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description>buka dropdown subkategori</description>
+      <id>8a7f00ff-579a-4f01-832e-7272f1ccbbc4</id>
+      <masked>false</masked>
+      <name>subcatid</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nama Bisnis &amp; Slogan '</defaultValue>
+      <description>pilih subkategori</description>
+      <id>dd2f0549-b2a3-4084-9782-a4a948e8bf38</id>
+      <masked>false</masked>
+      <name>textsubcat</name>
+   </variable>
+   <variable>
+      <defaultValue>'17'</defaultValue>
+      <description>input tanggal</description>
+      <id>4c159490-ea26-44d8-804b-e4e7008fd83e</id>
+      <masked>false</masked>
+      <name>tanggal</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mei 2023'</defaultValue>
+      <description>input bulan</description>
+      <id>e0dfc2af-95cb-4023-8dd4-e264d5a80b50</id>
+      <masked>false</masked>
+      <name>bulan</name>
+   </variable>
+   <variable>
+      <defaultValue>'offer'</defaultValue>
+      <description>pilih tipe offering</description>
+      <id>674da5f7-04c3-4df7-a565-0d142a44c8ed</id>
+      <masked>false</masked>
+      <name>pilih</name>
+   </variable>
+   <variable>
+      <defaultValue>'300000'</defaultValue>
+      <description>input budget client</description>
+      <id>ee51817d-c48c-4a87-b4ca-26bf3beff8dd</id>
+      <masked>false</masked>
+      <name>budgetclient</name>
+   </variable>
+</TestCaseEntity>

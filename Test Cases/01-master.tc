@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-master</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32e0880a-fbc1-4600-90d6-9bb3600272aa</testCaseGuid>
+   <variable>
+      <defaultValue>'transferbank'</defaultValue>
+      <description></description>
+      <id>8abfb0f1-4526-479c-88bb-6e781c2b17ce</id>
+      <masked>false</masked>
+      <name>bayar</name>
+   </variable>
+   <variable>
+      <defaultValue>'23'</defaultValue>
+      <description></description>
+      <id>054c7616-8135-429b-bf56-31b4f3535fbf</id>
+      <masked>false</masked>
+      <name>tanggal</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mei 2023'</defaultValue>
+      <description></description>
+      <id>966911bc-2bf4-4367-b250-c8e1b447cf27</id>
+      <masked>false</masked>
+      <name>bulan</name>
+   </variable>
+</TestCaseEntity>

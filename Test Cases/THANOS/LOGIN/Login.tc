@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7393cf5e-0b48-429d-942a-8d22430ad11a</testCaseGuid>
+   <variable>
+      <defaultValue>'ekoclient'</defaultValue>
+      <description></description>
+      <id>467f94fa-4227-4c0a-aa5a-0c85bdc4f06a</id>
+      <masked>false</masked>
+      <name>usernameclient</name>
+   </variable>
+   <variable>
+      <defaultValue>'mobile123+'</defaultValue>
+      <description></description>
+      <id>8b4b1e69-32ca-4424-ac46-b745c73d423e</id>
+      <masked>false</masked>
+      <name>passwordclient</name>
+   </variable>
+</TestCaseEntity>

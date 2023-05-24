@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Order Kontes</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ffd9bf33-a279-4759-81c4-61bb85a75251</testCaseGuid>
+   <variable>
+      <defaultValue>'silver'</defaultValue>
+      <description>input paket kontes</description>
+      <id>bc51c400-c577-4410-b8e0-da83f32c6ec3</id>
+      <masked>false</masked>
+      <name>paket</name>
+   </variable>
+   <variable>
+      <defaultValue>'DESAIN KONTES LUCU'</defaultValue>
+      <description>input judul kontes</description>
+      <id>042d3b7a-0c64-4e38-82f2-3813e738bb08</id>
+      <masked>false</masked>
+      <name>judulkontes</name>
+   </variable>
+   <variable>
+      <defaultValue>'Desain Kontes Bronze Desain Kontes Bronze Desain Kontes Bronze Desain Kontes Bronze Desain Kontes Bronze Desain Kontes Bronze Desain Kontes Bronze Desain Kontes Bronze '</defaultValue>
+      <description>input deskripsi project</description>
+      <id>7edeea1e-38a3-4383-ac12-f795a1d5b7d2</id>
+      <masked>false</masked>
+      <name>deskripsiproject</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description>input industri</description>
+      <id>a96d50ca-3a7f-46a6-aeaa-ff0700503b22</id>
+      <masked>false</masked>
+      <name>industri</name>
+   </variable>
+   <variable>
+      <defaultValue>'Akuntansi &amp; Keuangan '</defaultValue>
+      <description></description>
+      <id>69df6d8a-4e94-4244-99b0-745816a0661a</id>
+      <masked>false</masked>
+      <name>textindustri</name>
+   </variable>
+   <variable>
+      <defaultValue>'Logo Design'</defaultValue>
+      <description>input nama logo</description>
+      <id>2f4c436d-7722-4bf6-8d64-ddb6d964f66e</id>
+      <masked>false</masked>
+      <name>namalogo</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\Users\\ekokr\\OneDrive\\Pictures\\01. Katalon Upload\\dummy.png'</defaultValue>
+      <description>upload file tambahan</description>
+      <id>4ed51062-1391-4411-822c-55a7becda4cc</id>
+      <masked>false</masked>
+      <name>fileupload</name>
+   </variable>
+   <variable>
+      <defaultValue>'Saya ingin Desain logo yang elegan dan cantik'</defaultValue>
+      <description>input additional</description>
+      <id>4f7c27db-a0d5-4a4c-92bf-eff4de130e7e</id>
+      <masked>false</masked>
+      <name>additional</name>
+   </variable>
+   <variable>
+      <defaultValue>'guarante'</defaultValue>
+      <description>pilih fitur</description>
+      <id>3a1c19bf-f43b-4243-b9b5-4f3266a441e4</id>
+      <masked>false</masked>
+      <name>fitur</name>
+   </variable>
+   <variable>
+      <defaultValue>'vamfMTv6qshyTZrXqRVQdqxQ1'</defaultValue>
+      <description>password deposit</description>
+      <id>452e92c8-da71-40f4-83a7-9c91f72a0405</id>
+      <masked>false</masked>
+      <name>godpassword</name>
+   </variable>
+   <variable>
+      <defaultValue>'transfer'</defaultValue>
+      <description>pilih pembayaran</description>
+      <id>7ce86e29-82d3-470e-a932-a42057b71b49</id>
+      <masked>false</masked>
+      <name>bayar</name>
+   </variable>
+   <variable>
+      <defaultValue>'20'</defaultValue>
+      <description>input tanggal pembayaran via bank transfer</description>
+      <id>b428c94e-a672-4667-ab8f-bea1563b06a2</id>
+      <masked>false</masked>
+      <name>tanggal</name>
+   </variable>
+   <variable>
+      <defaultValue>'Maret 2023'</defaultValue>
+      <description>input bulan pembayaran via bank transfer</description>
+      <id>d7d09fb4-3c9b-4da4-88d3-80f453345b3c</id>
+      <masked>false</masked>
+      <name>bulan</name>
+   </variable>
+</TestCaseEntity>
