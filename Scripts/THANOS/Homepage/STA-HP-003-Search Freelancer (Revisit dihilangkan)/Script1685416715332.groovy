@@ -21,16 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.setViewPortSize(1440, 900)
 
-WebUI.navigateToUrl('http://128.199.177.111:8002/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('THANOS/Homepage/Search'), 'notfound')
+WebUI.setText(findTestObject('THANOS/Homepage/Search'), 'robertlancer4')
 
 WebUI.click(findTestObject('THANOS/Homepage/Button Search Dekstop'))
 
-WebUI.delay(2)
+nama_freelancer = WebUI.getText(findTestObject('THANOS/Cari Freelancer/Nama Freelancer'))
 
-'belum ada data testid\r\n'
-WebUI.verifyElementPresent(findTestObject('THANOS/Cari Freelancer/Gambar not found'), 0)
+WebUI.verifyMatch(nama_freelancer, 'robertlancer4', false)
 
 WebUI.takeFullPageScreenshot()
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>STA-HP-004-Search user tidak terdaftar</name>
+   <name>STA-HP-008 Cara Kerja Client</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e928d1b4-ca38-470f-8b7b-0e2288efd518</testCaseGuid>
+   <testCaseGuid>2506cf84-bf54-43e1-b39d-6edb2d4a3e60</testCaseGuid>
 </TestCaseEntity>

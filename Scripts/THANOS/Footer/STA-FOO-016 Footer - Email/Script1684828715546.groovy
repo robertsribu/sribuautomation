@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.setViewPortSize(1440, 900)
 
-WebUI.navigateToUrl('http://128.199.177.111:8002/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 email_sribu = WebUI.getText(findTestObject('THANOS/Footer/Footer Email'))
 

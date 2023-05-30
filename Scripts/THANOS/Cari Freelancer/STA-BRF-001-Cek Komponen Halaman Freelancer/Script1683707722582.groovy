@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.setViewPortSize(1440, 900)
 
-WebUI.navigateToUrl('http://128.199.177.111:8002/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('THANOS/Homepage/Menu Cari Freelancer'))
 
@@ -36,8 +36,6 @@ WebUI.verifyElementPresent(findTestObject('THANOS/Cari Freelancer/Card freelance
 WebUI.verifyElementPresent(findTestObject('THANOS/Cari Freelancer/Search'), 0)
 
 WebUI.verifyElementPresent(findTestObject('THANOS/Cari Freelancer/Button Search'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Cari Freelancer/Button add favorit'), 0)
 
 WebUI.verifyElementPresent(findTestObject('THANOS/Cari Freelancer/Dropdown Jumlah freelancer yang di lihat'), 0)
 

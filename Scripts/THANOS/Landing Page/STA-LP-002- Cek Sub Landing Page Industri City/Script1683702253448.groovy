@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.setViewPortSize(1440, 900)
 
-WebUI.navigateToUrl('http://128.199.177.111:8002/id/logo-design/bekasi')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.verifyElementPresent(findTestObject('THANOS/Landing Page/Desain Logo/Breadcrumb Landing Page'), 0)
 

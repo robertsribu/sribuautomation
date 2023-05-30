@@ -23,19 +23,13 @@ WebUI.setViewPortSize(1440, 900)
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.click(findTestObject('THANOS/Homepage/Menu Cari Freelancer'))
+WebUI.click(findTestObject('THANOS/Homepage/Lihat Paket Navbar'))
 
-WebUI.click(findTestObject('THANOS/Cari Freelancer/Button next pagination'))
+WebUI.delay(2)
 
-current_page = WebUI.getUrl()
+link_paket = WebUI.getUrl()
 
-WebUI.verifyMatch(current_page, 'http://128.199.177.111:8002/id/browse-freelancer?page=2', false)
-
-WebUI.click(findTestObject('THANOS/Cari Freelancer/Button previous pagination'))
-
-current_page = WebUI.getUrl()
-
-WebUI.verifyMatch(current_page, 'http://128.199.177.111:8002/id/browse-freelancer', false)
+WebUI.verifyMatch(link_paket, 'http://128.199.177.111:8002/id/packages?category=design-and-multimedia', false)
 
 WebUI.takeFullPageScreenshot()
 

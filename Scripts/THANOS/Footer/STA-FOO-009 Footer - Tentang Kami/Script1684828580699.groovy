@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.setViewPortSize(1440, 900)
 
-WebUI.navigateToUrl('http://128.199.177.111:8002/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('THANOS/Footer/Footer Tentang Kami'))
 
@@ -34,3 +34,4 @@ WebUI.delay(2)
 WebUI.takeFullPageScreenshot()
 
 WebUI.closeBrowser()
+

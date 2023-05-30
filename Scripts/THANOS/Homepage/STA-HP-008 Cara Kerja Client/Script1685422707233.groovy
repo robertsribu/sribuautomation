@@ -21,15 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.setViewPortSize(1440, 900)
 
-WebUI.navigateToUrl('http://128.199.177.111:8002/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('THANOS/Homepage/Search'), 'robertlancer4')
+WebUI.click(findTestObject('THANOS/Homepage/Menu Cara Kerja'))
 
-WebUI.click(findTestObject('THANOS/Homepage/Button Search Dekstop'))
+WebUI.click(findTestObject('THANOS/Homepage/Cara Kerja Client'))
 
-nama_freelancer = WebUI.getText(findTestObject('THANOS/Cari Freelancer/Nama Freelancer'))
+link_cara_kerja_client = WebUI.getUrl()
 
-WebUI.verifyMatch(nama_freelancer, 'robertlancer4', false)
+WebUI.verifyMatch(link_cara_kerja_client, 'http://128.199.177.111:8002/id/how-it-works/contests', false)
 
 WebUI.takeFullPageScreenshot()
 

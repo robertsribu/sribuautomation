@@ -23,19 +23,14 @@ WebUI.setViewPortSize(1440, 900)
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.click(findTestObject('THANOS/Homepage/Menu Cari Freelancer'))
+WebUI.setText(findTestObject('THANOS/Homepage/Search'), 'notfound')
 
-WebUI.click(findTestObject('THANOS/Cari Freelancer/Button next pagination'))
+WebUI.click(findTestObject('THANOS/Homepage/Button Search Dekstop'))
 
-current_page = WebUI.getUrl()
+WebUI.delay(2)
 
-WebUI.verifyMatch(current_page, 'http://128.199.177.111:8002/id/browse-freelancer?page=2', false)
-
-WebUI.click(findTestObject('THANOS/Cari Freelancer/Button previous pagination'))
-
-current_page = WebUI.getUrl()
-
-WebUI.verifyMatch(current_page, 'http://128.199.177.111:8002/id/browse-freelancer', false)
+'belum ada data testid\r\n'
+WebUI.verifyElementPresent(findTestObject('THANOS/Cari Freelancer/Gambar not found'), 0)
 
 WebUI.takeFullPageScreenshot()
 
