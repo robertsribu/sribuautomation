@@ -23,9 +23,9 @@ WebUI.setViewPortSize(1440, 900)
 
 WebUI.navigateToUrl('http://128.199.177.111:9100/login')
 
-WebUI.setText(findTestObject('JARVIS/Login Jarvis/username'), useradmin)
+WebUI.setText(findTestObject('JARVIS/Login Jarvis/username'), GlobalVariable.useradmin)
 
-WebUI.setText(findTestObject('JARVIS/Login Jarvis/password'), passwordadmin)
+WebUI.setText(findTestObject('JARVIS/Login Jarvis/password'), GlobalVariable.passadmin)
 
 WebUI.takeScreenshot()
 

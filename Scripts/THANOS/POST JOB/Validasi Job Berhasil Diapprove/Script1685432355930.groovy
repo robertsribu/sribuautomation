@@ -24,7 +24,13 @@ WebUI.click(findTestObject('THANOS/Halaman Lihat Job/Button Lihat Job atau Konte
 
 WebUI.click(findTestObject('THANOS/Halaman Lihat Job/Button lihat job'))
 
-WebUI.setText(findTestObject('THANOS/Halaman Lihat Job/Input search job'), job)
+WebUI.setText(findTestObject('THANOS/Halaman Lihat Job/Input search job'), GlobalVariable.juduljob)
 
 WebUI.click(findTestObject('THANOS/Halaman Lihat Job/Button search job'))
+
+WebUI.takeScreenshot()
+
+WebUI.delay(1)
+
+WebUI.closeBrowser()
 

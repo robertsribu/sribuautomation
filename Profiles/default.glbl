@@ -20,7 +20,7 @@
       <name>PINV</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Judul Paket Job</description>
       <initValue>''</initValue>
       <name>juduljobpaket</name>
    </GlobalVariableEntity>
@@ -51,7 +51,22 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'rezavoe'</initValue>
+      <name>useradmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mobile123+'</initValue>
+      <name>passadmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Judul Job Public dan Private</description>
       <initValue>''</initValue>
       <name>juduljob</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Judul Kontes</description>
+      <initValue>''</initValue>
+      <name>judulkontes</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

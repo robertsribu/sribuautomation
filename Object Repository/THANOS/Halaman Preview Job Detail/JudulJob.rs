@@ -4,6 +4,16 @@
    <name>JudulJob</name>
    <tag></tag>
    <elementGuidId>a78994ea-522c-4a60-865a-1826a48cd72f</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;app&quot;]/div/div[1]/div/div[2]/div[2]/div/div[1]/div[1]/div/div[2]/p[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
