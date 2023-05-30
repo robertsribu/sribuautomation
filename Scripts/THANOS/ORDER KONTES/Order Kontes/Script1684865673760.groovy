@@ -116,9 +116,9 @@ if (bayar == 'deposit') {
 
     WebUI.scrollToPosition(0, 200)
 
-    GlobalVariable.juduljob = WebUI.getText(findTestObject('Object Repository/THANOS/Halaman Pembayaran/Text Judul Pekerjaan'))
+    GlobalVariable.juduljobpaket = WebUI.getText(findTestObject('Object Repository/THANOS/Halaman Pembayaran/Text Judul Pekerjaan'))
 
-    String judul = GlobalVariable.juduljob
+    String judul = GlobalVariable.juduljobpaket
 
     String inputjudul = judul
 

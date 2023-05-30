@@ -6,15 +6,8 @@
    <comment></comment>
    <testCaseGuid>428fdca4-9e1b-41be-9c4b-d68eb27b1363</testCaseGuid>
    <variable>
-      <defaultValue>'job'</defaultValue>
-      <description>pilih order</description>
-      <id>7278b353-0579-4117-a92a-897bf77b51aa</id>
-      <masked>false</masked>
-      <name>order</name>
-   </variable>
-   <variable>
       <defaultValue>'CONTOH JOBJOBJOB'</defaultValue>
-      <description></description>
+      <description>input judul pekerjaan</description>
       <id>3bd87b9b-26c5-45a8-8af9-3fc5287cf3a9</id>
       <masked>false</masked>
       <name>juduljob</name>
@@ -48,14 +41,14 @@
       <name>textsubcat</name>
    </variable>
    <variable>
-      <defaultValue>'17'</defaultValue>
+      <defaultValue>'15'</defaultValue>
       <description>input tanggal</description>
       <id>beaebab6-f06e-47a3-851e-4b6c44fe80ce</id>
       <masked>false</masked>
       <name>tanggal</name>
    </variable>
    <variable>
-      <defaultValue>'Mei 2023'</defaultValue>
+      <defaultValue>'Juni 2023'</defaultValue>
       <description>input bulan</description>
       <id>14f87ab2-849a-4b95-b573-fb408c02e59c</id>
       <masked>false</masked>

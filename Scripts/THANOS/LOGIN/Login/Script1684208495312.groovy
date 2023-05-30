@@ -27,9 +27,9 @@ WebUI.click(findTestObject('THANOS/Homepage/01-button login'))
 
 WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Halaman login'), 0)
 
-WebUI.setText(findTestObject('THANOS/Halaman Login/02-username'), usernameclient)
+WebUI.setText(findTestObject('THANOS/Halaman Login/02-username'), GlobalVariable.userclient)
 
-WebUI.setText(findTestObject('THANOS/Halaman Login/03-password'), passwordclient)
+WebUI.setText(findTestObject('THANOS/Halaman Login/03-password'), GlobalVariable.passclient)
 
 WebUI.click(findTestObject('THANOS/Halaman Login/04-icon mata'))
 

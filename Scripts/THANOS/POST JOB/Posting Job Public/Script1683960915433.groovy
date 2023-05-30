@@ -21,8 +21,6 @@ WebUI.callTestCase(findTestCase('THANOS/LOGIN/Login'), [:], FailureHandling.CONT
 
 WebUI.click(findTestObject('THANOS/Halaman Detail Budget post Job/button order'))
 
-if (order == 'job') {
-	
     WebUI.click(findTestObject('THANOS/Halaman Detail Budget post Job/button post job'))
 
     WebUI.click(findTestObject('THANOS/Halaman Deskripsi post Job/01 Job Offer'))
@@ -123,9 +121,5 @@ if (order == 'job') {
 		WebUI.closeBrowser()
 		
     }
-} else if (order == 'paket') {
-    WebUI.click(findTestObject('THANOS/Halaman Detail Budget post Job/button lihat paket'))
-} else {
-    WebUI.click(findTestObject('THANOS/Halaman Detail Budget post Job/button order kontes'))
-}
+
 
