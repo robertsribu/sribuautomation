@@ -5,7 +5,7 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description>Staging</description>
+      <description>Thanos Staging</description>
       <initValue>'http://128.199.177.111:8002'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
@@ -18,6 +18,36 @@
       <description></description>
       <initValue>''</initValue>
       <name>PINV</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>juduljobpaket</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ekoclient'</initValue>
+      <name>userclient</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mobile123+'</initValue>
+      <name>passclient</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ekokrismn'</initValue>
+      <name>userfreelancer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'mobile123+'</initValue>
+      <name>passfreelancer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Jarvis Staging</description>
+      <initValue>'http://128.199.177.111:9100/login'</initValue>
+      <name>URLjarvis</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
