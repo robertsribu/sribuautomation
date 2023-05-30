@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('THANOS/LOGIN/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('THANOS/LOGIN/Login Client'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('THANOS/Homepage/01-button order'))
 
