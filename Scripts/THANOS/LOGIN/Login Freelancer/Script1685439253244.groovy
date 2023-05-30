@@ -17,31 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('JARVIS/Login Admin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('JARVIS/Job/01-button job'))
+WebUI.setViewPortSize(1440, 900)
 
-WebUI.click(findTestObject('JARVIS/Job/02-pilih job'))
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('JARVIS/Job/03-input title job'), GlobalVariable.juduljob)
+WebUI.click(findTestObject('THANOS/Homepage/01-button login'))
 
-WebUI.click(findTestObject('JARVIS/Job/03-button search'))
+WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Halaman login'), 0)
 
-WebUI.click(findTestObject('JARVIS/Job/04-button detail job'))
+WebUI.setText(findTestObject('THANOS/Halaman Login/02-username'), GlobalVariable.userfreelancer)
 
-WebUI.takeScreenshot()
+WebUI.setText(findTestObject('THANOS/Halaman Login/03-password'), GlobalVariable.passfreelancer)
 
-WebUI.scrollToElement(findTestObject('JARVIS/Job/05-approve job'), 0)
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('JARVIS/Job/05-approve job'))
+WebUI.click(findTestObject('THANOS/Halaman Login/04-icon mata'))
 
 WebUI.delay(1)
 
-WebUI.scrollToPosition(0, 0)
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('THANOS/Halaman Login/05-submit login'))
+
+WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Berhasil login'), 0)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.closeBrowser()
+WebUI.delay(1)
 

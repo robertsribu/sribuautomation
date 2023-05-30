@@ -17,31 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('JARVIS/Login Admin'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-
-WebUI.click(findTestObject('JARVIS/Job/01-button job'))
-
-WebUI.click(findTestObject('JARVIS/Job/02-pilih job'))
-
-WebUI.setText(findTestObject('JARVIS/Job/03-input title job'), GlobalVariable.juduljob)
-
-WebUI.click(findTestObject('JARVIS/Job/03-button search'))
-
-WebUI.click(findTestObject('JARVIS/Job/04-button detail job'))
-
-WebUI.takeScreenshot()
-
-WebUI.scrollToElement(findTestObject('JARVIS/Job/05-approve job'), 0)
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('JARVIS/Job/05-approve job'))
-
-WebUI.delay(1)
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.takeFullPageScreenshot()
-
-WebUI.closeBrowser()
-

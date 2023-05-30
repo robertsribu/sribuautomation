@@ -6,11 +6,11 @@
    <comment></comment>
    <testCaseGuid>428fdca4-9e1b-41be-9c4b-d68eb27b1363</testCaseGuid>
    <variable>
-      <defaultValue>'CONTOH JOBJOBJOB'</defaultValue>
+      <defaultValue>'JOB PUBLIC AUTOMATION 2'</defaultValue>
       <description>input judul pekerjaan</description>
       <id>3bd87b9b-26c5-45a8-8af9-3fc5287cf3a9</id>
       <masked>false</masked>
-      <name>juduljob</name>
+      <name>juduljobpekerjaan</name>
    </variable>
    <variable>
       <defaultValue>'2'</defaultValue>
