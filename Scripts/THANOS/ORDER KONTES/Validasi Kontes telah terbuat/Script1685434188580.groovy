@@ -17,3 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('THANOS/LOGIN/Login Client'), [('usernameclient') : 'ekoclient', ('passwordclient') : 'mobile123+'], 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('THANOS/Homepage/Button Lihat Job dan Kontes'))
+
+WebUI.click(findTestObject('THANOS/Homepage/Button Pilih Lihat Kontes'))
+
+WebUI.setText(findTestObject('THANOS/Halaman Lihat Kontes/Field Search'), GlobalVariable.juduljobpaket)
+
+WebUI.click(findTestObject('THANOS/Halaman Lihat Kontes/Button Cari'))
+
+WebUI.takeFullPageScreenshot()
+

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>01_tagihan</name>
+   <name>Button Cari</name>
    <tag></tag>
-   <elementGuidId>a8ed7852-85e2-4822-aed9-53ae12b37bdd</elementGuidId>
+   <elementGuidId>b0780eae-7739-471c-ba94-6fdc4893e419</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'menu_dashboard_myfreelancer_tagihan']</value>
+         <value>//*[@data-testid = 'btn_search_contest']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>menu_dashboard_myfreelancer_tagihan</value>
+      <value>btn_search_contest</value>
    </webElementProperties>
 </WebElementEntity>

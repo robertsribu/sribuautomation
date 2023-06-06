@@ -17,3 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('THANOS/LOGIN/Login Freelancer'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('THANOS/Homepage/Button Lihat Job dan Kontes'))
+
+WebUI.click(findTestObject('THANOS/Homepage/Button Pilih Lihat Job'))
+
+WebUI.setText(findTestObject('THANOS/Halaman Lihat Job/Input search job'), 'JOB PUBLIC AUTOMATION 2')
+
+WebUI.click(findTestObject('THANOS/Halaman Lihat Job/Button search job'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('THANOS/Halaman Lihat Job/List Job'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('THANOS/Halaman Job Public Detail/a_Daftar Job'))
+
+WebUI.setText(findTestObject('THANOS/Halaman Job Public Detail/Input penawaran'), '300000')
+
+WebUI.setText(findTestObject('THANOS/Halaman Job Public Detail/Field Alasan Penawaran'), 'Saya berpengalaman')
+
+WebUI.uploadFile(findTestObject('THANOS/Halaman Job Public Detail/Upload Dokumen'), 'C:\\Users\\ekokr\\OneDrive\\Pictures\\01. Katalon Upload\\dummy.png')
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.scrollToElement(findTestObject('THANOS/Halaman Job Public Detail/Button Kirim penawaran'), 0)
+
+WebUI.click(findTestObject('THANOS/Halaman Job Public Detail/Button Kirim penawaran'))
+

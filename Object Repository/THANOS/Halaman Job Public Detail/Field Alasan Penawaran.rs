@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>inputbayar</name>
+   <name>Field Alasan Penawaran</name>
    <tag></tag>
-   <elementGuidId>fb117690-434b-4f14-841e-658db7879ac4</elementGuidId>
+   <elementGuidId>d81d4ad7-0bfb-439a-b3c7-d5d07f4c252c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'paymentTotal']</value>
+         <value>//*[@data-testid = 'textarea_penawaran']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>paymentTotal</value>
+      <value>textarea_penawaran</value>
    </webElementProperties>
 </WebElementEntity>

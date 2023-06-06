@@ -10,32 +10,22 @@
          <value>//div[@id='pricing_tab_item_0']/div[3]/div/a/p</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'btn_compare_package_contest_0']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>a.btn.btn-link.w-100.hide-mobile > p</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>p</value>
-   </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>data-testid</name>
       <type>Main</type>
-      <value>Bandingkan Paket</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;pricing_tab_item_0&quot;)/div[@class=&quot;package-form&quot;]/div[@class=&quot;pricing-card-btn&quot;]/a[@class=&quot;btn btn-link w-100 hide-mobile&quot;]/p[1]</value>
+      <value>btn_compare_package_contest_0</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

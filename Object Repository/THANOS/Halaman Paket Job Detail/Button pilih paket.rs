@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'btn_choose_package_job']</value>
+         <value>//*[@data-testid = 'btn_choose_package_job_${id}']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -21,6 +21,13 @@
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>btn_choose_package_job</value>
+      <value>btn_choose_package_job_${id}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>checkMenu('${id}', 'logo_premium', 'f8a8e407-ce28-4863-99b1-e38047fd9707', 'PREMIUM')</value>
    </webElementProperties>
 </WebElementEntity>

@@ -23,7 +23,7 @@ WebUI.click(findTestObject('JARVIS/Contest/01-button Contest'))
 
 WebUI.click(findTestObject('JARVIS/Contest/02-button pilih contest'))
 
-WebUI.setText(findTestObject('JARVIS/Contest/03-input search'), titlekontes)
+WebUI.setText(findTestObject('JARVIS/Contest/03-input search'), GlobalVariable.juduljobpaket)
 
 WebUI.click(findTestObject('JARVIS/Contest/04-button search'))
 

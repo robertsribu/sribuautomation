@@ -7,20 +7,20 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@href = 'id/launch/logo-design/brief?packages=silver-logo-design']</value>
+         <value>//*[@data-testid = 'btn_choose_package_contest_${id}']</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;pricing_tab_item_2&quot;]/div[3]/div/a[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>data-testid</name>
       <type>Main</type>
-      <value>id/launch/logo-design/brief?packages=silver-logo-design</value>
+      <value>btn_choose_package_contest_${id}</value>
    </webElementProperties>
 </WebElementEntity>
