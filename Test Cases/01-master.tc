@@ -6,24 +6,24 @@
    <comment></comment>
    <testCaseGuid>32e0880a-fbc1-4600-90d6-9bb3600272aa</testCaseGuid>
    <variable>
-      <defaultValue>'transferbank'</defaultValue>
-      <description></description>
-      <id>8abfb0f1-4526-479c-88bb-6e781c2b17ce</id>
+      <defaultValue>'1'</defaultValue>
+      <description>basic = 0, plus = 1, premium = 2</description>
+      <id>25b1e464-5d27-4c30-9937-dd75753a02c1</id>
       <masked>false</masked>
-      <name>bayar</name>
+      <name>pilihfreelancer</name>
    </variable>
    <variable>
-      <defaultValue>'23'</defaultValue>
+      <defaultValue>'plus'</defaultValue>
       <description></description>
-      <id>054c7616-8135-429b-bf56-31b4f3535fbf</id>
+      <id>3e3bba7b-44a8-45b1-a00a-5206fd301388</id>
       <masked>false</masked>
-      <name>tanggal</name>
+      <name>paket</name>
    </variable>
    <variable>
-      <defaultValue>'Mei 2023'</defaultValue>
+      <defaultValue>'1'</defaultValue>
       <description></description>
-      <id>966911bc-2bf4-4367-b250-c8e1b447cf27</id>
+      <id>d2d7a4b8-10a9-4ac6-8c11-d8084657459c</id>
       <masked>false</masked>
-      <name>bulan</name>
+      <name>buttonpilih</name>
    </variable>
 </TestCaseEntity>

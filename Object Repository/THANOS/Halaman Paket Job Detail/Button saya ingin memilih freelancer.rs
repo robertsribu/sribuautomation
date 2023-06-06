@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button bandingkan paket</name>
+   <name>Button saya ingin memilih freelancer</name>
    <tag></tag>
-   <elementGuidId>79139307-efa1-427f-91b5-55b163880536</elementGuidId>
+   <elementGuidId>2b3f0f63-d15f-4959-961b-7f6613e06343</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'btn_compare_package_job_0']</value>
+         <value>//*[@for = 'fixed-check-freelancer-${pilih}']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;fixed-check-freelancer-0&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +19,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
+      <name>for</name>
       <type>Main</type>
-      <value>btn_compare_package_job_0</value>
+      <value>fixed-check-freelancer-${pilih}</value>
    </webElementProperties>
 </WebElementEntity>

@@ -4,5 +4,103 @@
    <name>PAKET JOB PILIH FREELANCER</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e3fd7ef0-2f94-4c5b-84a9-593949b4433c</testCaseGuid>
+   <testCaseGuid>00f8ec63-3c96-47ab-be87-b9c5fd09df87</testCaseGuid>
+   <variable>
+      <defaultValue>'prem'</defaultValue>
+      <description></description>
+      <id>4d3dfb7d-0f00-4c80-b013-1b66219b8118</id>
+      <masked>false</masked>
+      <name>paket</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description>bronze = 0, plus = 1, premium = 2</description>
+      <id>03db5747-3ddc-472d-9613-ab061f0ab701</id>
+      <masked>false</masked>
+      <name>pilihfreelancer</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description>bronze = 0, plus = 1, premium = 2</description>
+      <id>bd9d02f0-5a06-45f1-815c-af45b5955553</id>
+      <masked>false</masked>
+      <name>buttonpilih</name>
+   </variable>
+   <variable>
+      <defaultValue>'ekolancer'</defaultValue>
+      <description></description>
+      <id>e7b05560-66a8-4c47-b2d0-8c84e0687e88</id>
+      <masked>false</masked>
+      <name>freelancer</name>
+   </variable>
+   <variable>
+      <defaultValue>'Paket Job Desain Kontes Paket Job Desain Kontes Paket Job Desain Kontes Paket Job Desain Kontes Paket Job Desain Kontes'</defaultValue>
+      <description></description>
+      <id>e0c1bda1-7144-4186-8fc0-c883069e14b1</id>
+      <masked>false</masked>
+      <name>kebutuhan</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\Users\\ekokr\\OneDrive\\Pictures\\01. Katalon Upload\\dummy.png'</defaultValue>
+      <description></description>
+      <id>4bf209d9-a7bf-47ca-8147-fcb536f3cc3d</id>
+      <masked>false</masked>
+      <name>dokumen</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>7c27e4cb-4139-4459-b2b1-8feb1d60ae37</id>
+      <masked>false</masked>
+      <name>industri</name>
+   </variable>
+   <variable>
+      <defaultValue>'15'</defaultValue>
+      <description></description>
+      <id>609fa8fe-feee-440b-b377-400d075ad1ca</id>
+      <masked>false</masked>
+      <name>tanggalbayar</name>
+   </variable>
+   <variable>
+      <defaultValue>'April 2023'</defaultValue>
+      <description></description>
+      <id>16489ca7-d5e3-422b-ba15-d189f322efc0</id>
+      <masked>false</masked>
+      <name>bulanbayar</name>
+   </variable>
+   <variable>
+      <defaultValue>'21'</defaultValue>
+      <description></description>
+      <id>32444ef0-f46c-46e8-913c-89d55bb2d6af</id>
+      <masked>false</masked>
+      <name>tanggaldeadline</name>
+   </variable>
+   <variable>
+      <defaultValue>'Juni 2023'</defaultValue>
+      <description></description>
+      <id>f809e03f-d5bc-4d72-b9db-962f9d374507</id>
+      <masked>false</masked>
+      <name>bulandeadline</name>
+   </variable>
+   <variable>
+      <defaultValue>'transfer'</defaultValue>
+      <description></description>
+      <id>9b41f3e2-e771-49ca-873b-d05dfa28a104</id>
+      <masked>false</masked>
+      <name>bayar</name>
+   </variable>
+   <variable>
+      <defaultValue>'vamfMTv6qshyTZrXqRVQdqxQ1'</defaultValue>
+      <description></description>
+      <id>ea1945a0-d7a1-457b-af28-ea62b8197887</id>
+      <masked>false</masked>
+      <name>godpassowrd</name>
+   </variable>
+   <variable>
+      <defaultValue>'C:\\Users\\ekokr\\OneDrive\\Pictures\\01. Katalon Upload\\dummy.png'</defaultValue>
+      <description></description>
+      <id>810d5aa7-be34-43c3-b0e1-062dfc0eb468</id>
+      <masked>false</masked>
+      <name>fileupload</name>
+   </variable>
 </TestCaseEntity>

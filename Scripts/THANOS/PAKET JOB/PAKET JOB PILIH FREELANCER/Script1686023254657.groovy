@@ -38,7 +38,7 @@ WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Button bandingkan pa
 
 WebUI.delay(1)
 
-WebUI.takeFullPageScreenshot()
+WebUI.takeScreenshot()
 
 WebUI.delay(1)
 
@@ -51,25 +51,42 @@ if (paket == 'basic') {
     WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Pricing Gold'))
 }
 
+WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Button saya ingin memilih freelancer', [('pilih') : pilihfreelancer]))
+
 WebUI.delay(1)
 
-WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Button pilih paket'))
+WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Button pilih paket', [('id') : buttonpilih]))
+
+'pilih freelancer'
+WebUI.setText(findTestObject('THANOS/Halaman Paket Job Detail/Field Search Freelancer'), freelancer)
+
+WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Button search freelancer'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Button Pilih Freelancer'))
+
+WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Button beli paket'))
+
+WebUI.delay(1)
+
+WebUI.scrollToPosition(0, 500)
 
 WebUI.setText(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/Field jelaskan kebutuhan'), kebutuhan)
 
-WebUI.scrollToPosition(0, 300)
+WebUI.scrollToPosition(0, 700)
 
 WebUI.delay(1)
 
 WebUI.uploadFile(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/upload dokumen tambahan'), dokumen)
 
-WebUI.scrollToPosition(0, 530)
+WebUI.scrollToPosition(0, 900)
 
 WebUI.click(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/Field Inudstri'))
 
 WebUI.click(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/Select Industri', [('id') : industri]))
 
-WebUI.scrollToPosition(0, 700)
+WebUI.scrollToPosition(0, 970)
 
 WebUI.click(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/Input tanggal'))
 
@@ -95,6 +112,8 @@ WebUI.delay(1)
 WebUI.click(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/valuetanggal', [('dateid') : tanggaldeadline]))
 
 WebUI.takeFullPageScreenshot()
+
+WebUI.scrollToElement(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/Button beli paket'), 0)
 
 WebUI.delay(1)
 

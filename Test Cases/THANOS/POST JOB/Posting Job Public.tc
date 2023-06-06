@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>428fdca4-9e1b-41be-9c4b-d68eb27b1363</testCaseGuid>
    <variable>
-      <defaultValue>'JOB PUBLIC AUTOMATION 2'</defaultValue>
+      <defaultValue>'JOB PUBLIC AUTOMATION 3'</defaultValue>
       <description>input judul pekerjaan</description>
       <id>3bd87b9b-26c5-45a8-8af9-3fc5287cf3a9</id>
       <masked>false</masked>
@@ -42,7 +42,7 @@
    </variable>
    <variable>
       <defaultValue>'15'</defaultValue>
-      <description>input tanggal</description>
+      <description>input tanggal deadline posting</description>
       <id>beaebab6-f06e-47a3-851e-4b6c44fe80ce</id>
       <masked>false</masked>
       <name>tanggal</name>

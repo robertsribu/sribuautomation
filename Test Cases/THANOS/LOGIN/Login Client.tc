@@ -1,22 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login</name>
+   <name>Login Client</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>7393cf5e-0b48-429d-942a-8d22430ad11a</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>467f94fa-4227-4c0a-aa5a-0c85bdc4f06a</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>8b4b1e69-32ca-4424-ac46-b745c73d423e</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>'ekoclient'</defaultValue>
       <description></description>

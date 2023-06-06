@@ -17,3 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.setViewPortSize(1440, 900)
+
+WebUI.navigateToUrl(GlobalVariable.URL)
+
+WebUI.click(findTestObject('THANOS/Homepage/01-button login'))
+
+WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Halaman login'), 0)
+
+WebUI.setText(findTestObject('THANOS/Halaman Login/02-username'), GlobalVariable.userfreelancer)
+
+WebUI.setText(findTestObject('THANOS/Halaman Login/03-password'), GlobalVariable.passfreelancer)
+
+WebUI.click(findTestObject('THANOS/Halaman Login/04-icon mata'))
+
+WebUI.delay(1)
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('THANOS/Halaman Login/05-submit login'))
+
+WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Berhasil login'), 0)
+
+WebUI.takeFullPageScreenshot()
+
+WebUI.delay(1)
+

@@ -17,65 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('null'), [('paket') : 'bronze', ('judulkontes') : 'DESAIN KONTES LUCU'
-        , ('deskripsiproject') : 'Desain Kontes Bronze Desain Kontes Bronze Desain Kontes Bronze Desain Kontes Bronze Desain Kontes Bronze Desain Kontes Bronze Desain Kontes Bronze Desain Kontes Bronze '
-        , ('industri') : '2', ('textindustri') : 'Akuntansi & Keuangan ', ('namalogo') : 'Logo Design', ('fileupload') : 'C:\\Users\\ekokr\\OneDrive\\Pictures\\01. Katalon Upload\\dummy.png'
-        , ('additional') : 'Saya ingin Desain logo yang elegan dan cantik', ('fitur') : 'confidential', ('godpassword') : 'vamfMTv6qshyTZrXqRVQdqxQ1'], 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('')
 
-if (bayar == 'deposit') {
-    WebUI.click(findTestObject('THANOS/Halaman Pembayaran/01-Deposit/Bayar pakai Deposit'))
+WebUI.setViewPortSize(1440, 900)
 
-    WebUI.click(findTestObject('THANOS/Halaman Pembayaran/Button proses pembayaran'))
+WebUI.navigateToUrl('http://128.199.177.111:8001/id/packages-detail/logo-design')
 
-    WebUI.click(findTestObject('THANOS/Halaman Pembayaran/01-Deposit/button submit deposit'))
+WebUI.scrollToPosition(0, 200)
 
-    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/01-Deposit/input password deposit'), godpassword)
-
-    WebUI.click(findTestObject('THANOS/Halaman Pembayaran/01-Deposit/button submit input password'))
-
-    WebUI.delay(3)
-
-    WebUI.takeFullPageScreenshot()
-
-    WebUI.delay(1)
-} else if (bayar == 'transferbank') {
-    WebUI.click(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/Bayar pakai bank transfer'))
-
-    WebUI.click(findTestObject('THANOS/Halaman Pembayaran/Button proses pembayaran'))
-
-    WebUI.click(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/02-input tanggal'))
-
-    WebUI.delay(1)
-
-    for (def index : (0..12)) {
-        String monthyear = WebUI.getText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/03-ValueBulan'), FailureHandling.CONTINUE_ON_FAILURE)
-
-        String data = monthyear
-
-        System.print(data + '     ----     ')
-
-        if (data == bulan) {
-            break
-        } else {
-            WebUI.click(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/datepicker_prev'))
-        }
-    }
-    
-    WebUI.delay(2)
-
-    WebUI.click(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/04-ValueTanggal'))
-
-    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/05-Input nama Bank'), 'asdasd')
-
-    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/06-input cabang bank'), 'asdasd')
-
-    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/07-input no rekening'), 'asdasd')
-
-    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/08-nama pemegang rekening'), 'asdasd')
-
-    WebUI.setText(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/09-input catatan'), 'asdasd')
-
-    WebUI.uploadFile(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/10-upload file'), '')
+if (paket == 'bronze') {
+    WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Pricing Basic'))
+} else if (paket == 'plus') {
+    WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Pricing Plus'))
+} else {
+    WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Pricing Gold'))
 }
+
+WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Button saya ingin memilih freelancer', [('pilih') : pilihfreelancer]))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Button pilih paket', [('id') : buttonpilih]))
 

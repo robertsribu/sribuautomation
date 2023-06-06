@@ -17,31 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('JARVIS/Login Admin'), [('useradmin') : 'rezavoe', ('passwordadmin') : 'mobile123+'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('THANOS/LOGIN/Login Client'), [('usernameclient') : 'ekoclient', ('passwordclient') : 'mobile123+'], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('JARVIS/Contest/01-button Contest'))
+WebUI.click(findTestObject('THANOS/Halaman Lihat Job/Button Lihat Job atau Kontes'))
 
-WebUI.click(findTestObject('JARVIS/Contest/02-button pilih contest'))
+WebUI.click(findTestObject('THANOS/Halaman Lihat Job/Button lihat job'))
 
-WebUI.setText(findTestObject('JARVIS/Contest/03-input search'), GlobalVariable.juduljobpaket)
+WebUI.setText(findTestObject('THANOS/Halaman Lihat Job/Input search job'), job)
 
-WebUI.click(findTestObject('JARVIS/Contest/04-button search'))
-
-WebUI.takeScreenshot()
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('JARVIS/Contest/05-button pilih detail kontes'))
-
-WebUI.delay(1)
-
-WebUI.takeFullPageScreenshot()
-
-WebUI.scrollToElement(findTestObject('JARVIS/Contest/scrollelement1'), 0)
-
-WebUI.click(findTestObject('JARVIS/Contest/06-button approve'))
-
-WebUI.delay(1)
-
-WebUI.takeFullPageScreenshot()
+WebUI.click(findTestObject('THANOS/Halaman Lihat Job/Button search job'))
 

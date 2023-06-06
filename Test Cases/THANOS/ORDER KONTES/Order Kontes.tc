@@ -13,14 +13,21 @@
       <name>paket</name>
    </variable>
    <variable>
-      <defaultValue>'DESAIN KONTES LUCU'</defaultValue>
+      <defaultValue>'1'</defaultValue>
+      <description>bronze = 0, silver = 1, gold = 2</description>
+      <id>3482b292-de67-4455-816b-58aa0fa2dae0</id>
+      <masked>false</masked>
+      <name>buttonpilihpaket</name>
+   </variable>
+   <variable>
+      <defaultValue>'Desain Kontes Untuk coba Test auto'</defaultValue>
       <description>input judul kontes</description>
       <id>042d3b7a-0c64-4e38-82f2-3813e738bb08</id>
       <masked>false</masked>
       <name>judulkontes</name>
    </variable>
    <variable>
-      <defaultValue>'Desain Kontes Bronze Desain Kontes Bronze Desain Kontes Bronze Desain Kontes Bronze Desain Kontes Bronze Desain Kontes Bronze Desain Kontes Bronze Desain Kontes Bronze '</defaultValue>
+      <defaultValue>'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages'</defaultValue>
       <description>input deskripsi project</description>
       <id>7edeea1e-38a3-4383-ac12-f795a1d5b7d2</id>
       <masked>false</masked>
@@ -76,7 +83,7 @@
       <name>godpassword</name>
    </variable>
    <variable>
-      <defaultValue>'transfer'</defaultValue>
+      <defaultValue>'deposit'</defaultValue>
       <description>pilih pembayaran</description>
       <id>7ce86e29-82d3-470e-a932-a42057b71b49</id>
       <masked>false</masked>

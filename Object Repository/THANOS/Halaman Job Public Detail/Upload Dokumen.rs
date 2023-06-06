@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>02_konfirmbayar</name>
+   <name>Upload Dokumen</name>
    <tag></tag>
-   <elementGuidId>24400e4a-0d0a-4850-a1a9-0a60a90a9f69</elementGuidId>
+   <elementGuidId>2a4b85a9-224b-412f-ad38-8e4651edb817</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'btn_konfirmasi_pembayaran']</value>
+         <value>//*[@id = 'file-input']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
+      <name>id</name>
       <type>Main</type>
-      <value>btn_konfirmasi_pembayaran</value>
+      <value>file-input</value>
    </webElementProperties>
 </WebElementEntity>

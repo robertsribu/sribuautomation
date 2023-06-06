@@ -17,16 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('THANOS/LOGIN/Login'), [('usernameclient') : 'ekoclient', ('passwordclient') : 'mobile123+'], 
+WebUI.callTestCase(findTestCase('THANOS/LOGIN/Login Client'), [('usernameclient') : 'ekoclient', ('passwordclient') : 'mobile123+'], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('01_tagihan'))
 
-WebUI.click(findTestObject('02_konfirmbayar'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(1)
 
-GlobalVariable.totaltagihan = WebUI.getAttribute(findTestObject('inputbayar'), 'placeholder')
+GlobalVariable.totaltagihan = WebUI.getAttribute(findTestObject('null'), 'placeholder')
 System.print("Total nominal:" + GlobalVariable.totaltagihan)
 
 String input = GlobalVariable.totaltagihan
@@ -35,7 +35,7 @@ String inputpembayaran = input.replaceAll('[^0-9]', '')
 
 println("Nominal Jumlah Bayar:" + inputpembayaran)
 
-WebUI.setText(findTestObject('inputbayar'), inputpembayaran)
+WebUI.setText(findTestObject('null'), inputpembayaran)
 
 WebUI.delay(2)
 

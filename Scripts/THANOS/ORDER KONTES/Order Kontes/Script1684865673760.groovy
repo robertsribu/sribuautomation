@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('THANOS/LOGIN/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('THANOS/LOGIN/Login Client'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('THANOS/Homepage/01-button order'))
 
@@ -33,6 +33,8 @@ WebUI.click(findTestObject('THANOS/Halaman Package Kontes List/Kontes Desain log
 
 WebUI.scrollToPosition(0, 230)
 
+WebUI.click(findTestObject('THANOS/Halaman Package Kontes Detail/02-Bandingkan Paket'))
+
 'pilih paket kontes'
 if (paket == 'bronze') {
     WebUI.click(findTestObject('THANOS/Halaman Package Kontes Detail/Pricing bronze'))
@@ -42,7 +44,7 @@ if (paket == 'bronze') {
     WebUI.click(findTestObject('THANOS/Halaman Package Kontes Detail/Pricing gold'))
 }
 
-WebUI.click(findTestObject('THANOS/Halaman Package Kontes Detail/Button Pilih Paket'))
+WebUI.click(findTestObject('THANOS/Halaman Package Kontes Detail/button pilih paket', [('id') : buttonpilihpaket]))
 
 WebUI.setText(findTestObject('THANOS/Edit Brief Kontes/Edit Brief Kontes Desain Logo/01-judul kontes'), judulkontes)
 
@@ -84,7 +86,7 @@ WebUI.scrollToPosition(0, 2150)
 
 WebUI.click(findTestObject('THANOS/Edit Brief Kontes/Edit Brief Kontes Desain Logo/13-Submit Brief'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('THANOS/Halaman Pembayaran/Detail order'), 0)
 
@@ -98,6 +100,16 @@ WebUI.takeFullPageScreenshot()
 if (bayar == 'deposit') {
     WebUI.click(findTestObject('THANOS/Halaman Pembayaran/01-Deposit/Bayar pakai Deposit'))
 
+    WebUI.delay(1)
+
+    GlobalVariable.juduljobpaket = WebUI.getText(findTestObject('Object Repository/THANOS/Halaman Pembayaran/Text Judul Pekerjaan'))
+
+    String judul = GlobalVariable.juduljobpaket
+
+    String inputjudul = judul
+
+    println('judul pekerjaan : ' + inputjudul)
+
     WebUI.click(findTestObject('THANOS/Halaman Pembayaran/Button proses pembayaran'))
 
     WebUI.click(findTestObject('THANOS/Halaman Pembayaran/01-Deposit/button submit deposit'))
@@ -106,7 +118,7 @@ if (bayar == 'deposit') {
 
     WebUI.click(findTestObject('THANOS/Halaman Pembayaran/01-Deposit/button submit input password'))
 
-    WebUI.delay(3)
+    WebUI.delay(1)
 
     WebUI.takeFullPageScreenshot()
 
