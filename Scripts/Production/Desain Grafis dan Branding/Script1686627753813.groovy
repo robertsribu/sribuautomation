@@ -46,5 +46,5 @@ for (int row = 1; row <= testData.getRowNumbers(); row++) {
 		println('LANDING PAGE MEMILIKI TITLE')
 	} else {
 		println('LANDING PAGE TIDAK MEMILIKI TITLE')
-}
+	}
 }

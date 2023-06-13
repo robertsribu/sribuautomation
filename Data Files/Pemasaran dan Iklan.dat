@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Pemasaran dan Iklan</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>a048096c-28b8-45c4-8fc5-13389396aa99</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fecommerce-marketing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Faffiliate-marketing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fguest-posting</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fbacklink-pbn</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fmobile-app-marketing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Femail-marketing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fbook-and-ebook-marketing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fsocial-media-marketing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fadd-reviews</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fadd-social-media-followers</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fbuzzer-marketing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fblogger-marketing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fvideo-marketing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Ftiktok-live-marketing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fpaid-ads-instagram</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fpaid-ads-facebook</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Finfluencer-marketing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fyoutube-marketing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fcreate-ig-reels</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fpodcast-marketing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fpublic-relation</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fbeauty-product-reviews</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fonline-store-product-updates</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fother-online-marketing-work</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fweb-traffic-and-analytics</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fmarket-research</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fseo</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fsearch-engine-marketing</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>URL</name>
+      <size>28</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
