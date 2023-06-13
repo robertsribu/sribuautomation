@@ -16,18 +16,36 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
 
-WebUI.openBrowser('')
+// Dapatkan data internal dengan nama "URLData"
+def testData = TestDataFactory.findTestData('Video Fotografi Audio')
 
-WebUI.setViewPortSize(1440, 900)
+// Loop melalui setiap baris data internal
+for (int row = 1; row <= testData.getRowNumbers(); row++) {
+    // Dapatkan URL dari kolom "URL" pada setiap baris
+    String url = testData.getValue('URL', row)
 
-WebUI.navigateToUrl('http://128.199.177.111:8002/id/portfolio-contest')
+    // Lakukan tindakan yang diinginkan dengan URL
+    println("Visiting URL: $url")
 
-WebUI.click(findTestObject('null'))
+    // Lakukan aksi lain sesuai kebutuhan, seperti membuka URL di browser
+    // Contoh aksi: Buka URL menggunakan WebUI.openBrowser()
+    WebUI.openBrowser(url)
 
-subcategory = WebUI.getText(findTestObject('null'))
+    WebUI.setViewPortSize(1440, 900)
 
-println(subcategory)
+    WebUI.refresh(FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('null'))
+    // Memeriksa keberadaan elemen TITLE
+    isTitlePresent = WebUI.verifyElementPresent(findTestObject('Object Repository/TITLE LANDING PAGE'), 1, FailureHandling.CONTINUE_ON_FAILURE)
+
+    // Memeriksa Landing Page memiliki Title yang menunjukkan Landing Page sukses terbuka
+    if (isTitlePresent) {
+        println('LANDING PAGE MEMILIKI TITLE')
+    } else {
+        println('LANDING PAGE TIDAK MEMILIKI TITLE')
+    }
+}
 

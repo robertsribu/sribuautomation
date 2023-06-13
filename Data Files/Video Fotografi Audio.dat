@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Video Fotografi Audio</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>f86ee764-78b1-4316-a887-741fbf63f368</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fvideo-editing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fvoice-editing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fanimation-for-streamers</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fmotion-graphics</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2F3d-animation</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fphoto-editing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fvisual-effects</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2F2d-animation</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fwhiteboard-animated-explainers</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fsubtitle</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fcorporate-videos</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Funboxing-videos</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fvideo-ads-commercials</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fsocial-media-videos</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fvideo-production</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fecommerce-product-videos</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fevent-photography</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Flifestyle-fashion-photography</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Ffood-photography</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fproduct-photography</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fcatalog-design</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Freal-estate-photography</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Faerial-photography</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fwedding-photography</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fportrait-photography</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fother-video-photography-audio</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>URL</name>
+      <size>26</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

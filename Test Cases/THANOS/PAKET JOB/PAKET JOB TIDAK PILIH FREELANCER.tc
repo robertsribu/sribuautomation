@@ -7,7 +7,7 @@
    <testCaseGuid>ed969b2c-f471-4ace-909f-b031d68aabcb</testCaseGuid>
    <variable>
       <defaultValue>'plus'</defaultValue>
-      <description></description>
+      <description>pilih paket job</description>
       <id>3ee3ac98-df57-4927-bf6a-e44448678ad7</id>
       <masked>false</masked>
       <name>paket</name>
@@ -28,14 +28,14 @@
    </variable>
    <variable>
       <defaultValue>'3'</defaultValue>
-      <description></description>
+      <description>pilih industri</description>
       <id>d59494c1-0115-4549-8dd1-1a86491655c2</id>
       <masked>false</masked>
       <name>industri</name>
    </variable>
    <variable>
       <defaultValue>'15'</defaultValue>
-      <description></description>
+      <description>tanggal bayar invoice</description>
       <id>468b542e-8785-4982-839e-bdc073a967fc</id>
       <masked>false</masked>
       <name>tanggalbayar</name>
@@ -49,7 +49,7 @@
    </variable>
    <variable>
       <defaultValue>'15'</defaultValue>
-      <description></description>
+      <description>tanggal penyelesaian pekerjaan</description>
       <id>afc8175b-99d3-4329-a9e1-577946b6c08c</id>
       <masked>false</masked>
       <name>tanggaldeadline</name>
@@ -77,7 +77,7 @@
    </variable>
    <variable>
       <defaultValue>'C:\\Users\\ekokr\\OneDrive\\Pictures\\01. Katalon Upload\\dummy.png'</defaultValue>
-      <description></description>
+      <description>bukti pembayaran</description>
       <id>22b1cd06-f0e5-46d6-82f4-1228c2965729</id>
       <masked>false</masked>
       <name>fileupload</name>

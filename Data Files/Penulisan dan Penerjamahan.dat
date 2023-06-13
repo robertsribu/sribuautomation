@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Penulisan dan Penerjamahan</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>88b3130a-2114-4013-b2ae-3cccbf2b3f3f</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fpress-releases</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fproduct-description</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fjob-descriptions</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fscriptwriting</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fsocial-media-copy</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Ftechnical-writing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fpodcast-writing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Femail-copy</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fcreative-writing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fproduct-description</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fspeechwriting</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fbusiness-names-and-slogans</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fads-copy</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fsales-copy</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fbook-and-ebook-writing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fresume-writing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Farticles-and-blog-posts</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fcase-studies</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fdata-entry-in-excel</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fdata-entry-in-website</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fresearch-and-summaries</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Ftranslation</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fother-writing-translations-data-entry</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fproofreading-and-editing</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fwebsite-content</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>URL</name>
+      <size>25</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

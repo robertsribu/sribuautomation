@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Web dan Pemrograman</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>c86a4d87-7989-48af-b5c9-eae6bc0f868e</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fwebsite-development</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fbug-fixes</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fgame-development</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fother-development</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fwordpress</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fdesktop-application</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fecommerce-development</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fweb-programming</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fslicing-to-html</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fquality-assurance</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fwebsite-maintenance</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fit-support</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fmobile-android-development</data>
+   <data>https%3A%2F%2Fwww.sribu.com%2Fid%2Fmobile-application</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>URL</name>
+      <size>14</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
