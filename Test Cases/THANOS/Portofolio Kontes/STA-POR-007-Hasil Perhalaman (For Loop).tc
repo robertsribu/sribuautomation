@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>STA-POR-007-Hasil Perhalaman (For Loop)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d4b5bac-27d6-48b1-9782-ceccf25cd969</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8279535d-ab63-4dca-bcbd-0d55f038654b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'24'</defaultValue>
+      <description></description>
+      <id>8279535d-ab63-4dca-bcbd-0d55f038654b</id>
+      <masked>false</masked>
+      <name>inputjumlahpage</name>
+   </variable>
+</TestCaseEntity>
