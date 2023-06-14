@@ -32,13 +32,7 @@ WebUI.click(findTestObject('THANOS/Halaman Package Job List/Subkategori/Desain l
 
 WebUI.scrollToPosition(0, 200)
 
-WebUI.delay(1)
-
-WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Button bandingkan paket'))
-
-WebUI.delay(1)
-
-WebUI.takeFullPageScreenshot()
+WebUI.takeScreenshot()
 
 WebUI.delay(1)
 
@@ -51,25 +45,42 @@ if (paket == 'basic') {
     WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Pricing Gold'))
 }
 
+WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Button saya ingin memilih freelancer', [('pilih') : pilihfreelancer]))
+
 WebUI.delay(1)
 
-WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Button pilih paket'))
+WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Button pilih paket', [('id') : buttonpilihpaket]))
+
+'pilih freelancer'
+WebUI.setText(findTestObject('THANOS/Halaman Paket Job Detail/Field Search Freelancer'), freelancer)
+
+WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Button search freelancer'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Button Pilih Freelancer'))
+
+WebUI.click(findTestObject('THANOS/Halaman Paket Job Detail/Button beli paket'))
+
+WebUI.delay(1)
+
+WebUI.scrollToPosition(0, 500)
 
 WebUI.setText(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/Field jelaskan kebutuhan'), kebutuhan)
 
-WebUI.scrollToPosition(0, 300)
+WebUI.scrollToPosition(0, 700)
 
 WebUI.delay(1)
 
 WebUI.uploadFile(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/upload dokumen tambahan'), dokumen)
 
-WebUI.scrollToPosition(0, 530)
+WebUI.scrollToPosition(0, 900)
 
 WebUI.click(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/Field Inudstri'))
 
 WebUI.click(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/Select Industri', [('id') : industri]))
 
-WebUI.scrollToPosition(0, 700)
+WebUI.scrollToPosition(0, 970)
 
 WebUI.click(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/Input tanggal'))
 
@@ -96,6 +107,8 @@ WebUI.click(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo
 
 WebUI.takeFullPageScreenshot()
 
+WebUI.scrollToElement(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/Button beli paket'), 0)
+
 WebUI.delay(1)
 
 WebUI.click(findTestObject('THANOS/Edit Brief Paket/Edit Brief Paket Desain Logo/Button beli paket'))
@@ -111,6 +124,16 @@ WebUI.scrollToPosition(0, 100)
 'pilih metode pembayaran'
 if (bayar == 'deposit') {
     WebUI.click(findTestObject('THANOS/Halaman Pembayaran/01-Deposit/Bayar pakai Deposit'))
+	
+	WebUI.delay(1)
+	
+	GlobalVariable.juduljobpaket = WebUI.getText(findTestObject('Object Repository/THANOS/Halaman Pembayaran/Text Judul Pekerjaan'))
+	
+	String judul = GlobalVariable.juduljobpaket
+	
+	String inputjudul = judul
+	
+	println('judul pekerjaan : ' + inputjudul)
 
     WebUI.click(findTestObject('THANOS/Halaman Pembayaran/Button proses pembayaran'))
 
@@ -120,11 +143,34 @@ if (bayar == 'deposit') {
 
     WebUI.click(findTestObject('THANOS/Halaman Pembayaran/01-Deposit/button submit input password'))
 
-    WebUI.delay(3)
+    WebUI.delay(1)
 
     WebUI.takeFullPageScreenshot()
+	
+	WebUI.click(findTestObject('THANOS/Halaman Proforma Invoice/Toast Info'))
+	
+	WebUI.waitForElementClickable(findTestObject('THANOS/Halaman Proforma Invoice/a_Kembali ke List Tagihan'), 2)
+	
+	WebUI.click(findTestObject('THANOS/Halaman Proforma Invoice/a_Kembali ke List Tagihan'))
+	
+	WebUI.verifyElementText(findTestObject('THANOS/Dashboard Client/Tagihan/Status Pembayaran'), 'Sudah Dibayar')
+	
+	WebUI.click(findTestObject('THANOS/Dashboard Client/Project/Menu Project'))
+	
+	WebUI.setText(findTestObject('THANOS/Dashboard Client/Project/Field search - project'), GlobalVariable.juduljobpaket)
+	
+	WebUI.sendKeys(findTestObject('THANOS/Dashboard Client/Project/Field search - project'), Keys.chord(Keys.ENTER))
+	
+	WebUI.delay(1)
+	
+	WebUI.click(findTestObject('THANOS/Dashboard Client/Project/Button Lihat Job'))
+	
+	WebUI.verifyElementText(findTestObject('THANOS/Dashboard Client/Project/Status Job Paket'), 'Menunggu Verifikasi')
+	
+	WebUI.takeScreenshot()
+	
+	WebUI.closeBrowser()
 
-    WebUI.delay(1)
 } else if (bayar == 'transfer') {
     WebUI.click(findTestObject('THANOS/Halaman Pembayaran/07-Bank Transfer/Bayar pakai bank transfer'))
 

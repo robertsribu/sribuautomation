@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button bandingkan paket</name>
+   <name>Field search - project</name>
    <tag></tag>
-   <elementGuidId>79139307-efa1-427f-91b5-55b163880536</elementGuidId>
+   <elementGuidId>efa7229e-99e3-43d1-894e-82a72b7aa7ac</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'btn_compare_package_job_${index}']</value>
+         <value>//*[@data-testid = 'input_search']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>btn_compare_package_job_${index}</value>
+      <value>input_search</value>
    </webElementProperties>
 </WebElementEntity>

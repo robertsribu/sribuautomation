@@ -20,13 +20,23 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('THANOS/LOGIN/Login Client'), [('usernameclient') : 'ekoclient', ('passwordclient') : 'mobile123+'], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('THANOS/Homepage/Button Lihat Job dan Kontes'))
+WebUI.click(findTestObject('THANOS/Dashboard Client/Project/Menu Project'))
 
-WebUI.click(findTestObject('THANOS/Homepage/Button Pilih Lihat Kontes'))
+WebUI.setText(findTestObject('THANOS/Dashboard Client/Project/Field search - project'), GlobalVariable.juduljobpaket)
 
-WebUI.setText(findTestObject('THANOS/Halaman Lihat Kontes/Field Search'), GlobalVariable.juduljobpaket)
+WebUI.sendKeys(findTestObject('THANOS/Dashboard Client/Project/Field search - project'), Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('THANOS/Halaman Lihat Kontes/Button Cari'))
+WebUI.delay(1)
 
-WebUI.takeFullPageScreenshot()
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('THANOS/Dashboard Client/Project/Button Lihat Job'))
+
+WebUI.verifyElementText(findTestObject('THANOS/Dashboard Client/Project/Status Job Paket'), 'Dibuka')
+
+WebUI.delay(1)
+
+WebUI.takeScreenshot()
+
+WebUI.closeBrowser()
 

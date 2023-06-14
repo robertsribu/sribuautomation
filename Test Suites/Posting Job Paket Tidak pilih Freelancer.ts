@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Posting Job Paket</name>
+   <name>Posting Job Paket Tidak pilih Freelancer</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -12,15 +12,27 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>b5a6974e-8fda-4544-8092-09e715a7a645</testSuiteGuid>
    <testCaseLink>
-      <guid>99b073a9-9379-4e3b-9841-77645b5b94b0</guid>
+      <guid>606a9e6d-f437-4459-a943-c0aa6716d438</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/THANOS/PAKET JOB/PAKET JOB TIDAK PILIH FREELANCER</testCaseId>
+      <testCaseId>Test Cases/THANOS/PAKET JOB/STA-JPPUB-001</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
          <variableId>3ee3ac98-df57-4927-bf6a-e44448678ad7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>273fe60a-081c-4df3-aa81-9a78872d080e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>70d59ec8-8de2-4b56-af70-fb454a494866</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -44,7 +56,7 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>468b542e-8785-4982-839e-bdc073a967fc</variableId>
+         <variableId>afc8175b-99d3-4329-a9e1-577946b6c08c</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -62,13 +74,7 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>caef87f3-2623-43f7-909c-e94dc917241f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>22b1cd06-f0e5-46d6-82f4-1228c2965729</variableId>
+         <variableId>468b542e-8785-4982-839e-bdc073a967fc</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -80,19 +86,25 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>afc8175b-99d3-4329-a9e1-577946b6c08c</variableId>
+         <variableId>caef87f3-2623-43f7-909c-e94dc917241f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>22b1cd06-f0e5-46d6-82f4-1228c2965729</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>1d052693-2a5c-4e51-a457-e695d2b9276a</guid>
+      <guid>d9f6e116-c278-49d0-b0c6-cbf7201cf854</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JARVIS/Approve Transfer Payment</testCaseId>
+      <testCaseId>Test Cases/JARVIS/JAR-APD-001</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>07f3cb18-760c-41aa-aa98-a7ee2835b131</guid>
+      <guid>bac00e3f-b1d9-45d3-995f-78cafa043efe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JARVIS/Approve Job Paket</testCaseId>
+      <testCaseId>Test Cases/THANOS/PAKET JOB/STA-VALJ-002</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

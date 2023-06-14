@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PAKET JOB TIDAK PILIH FREELANCER</name>
+   <name>STA-JPPUB-001</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ed969b2c-f471-4ace-909f-b031d68aabcb</testCaseGuid>
    <variable>
-      <defaultValue>'plus'</defaultValue>
+      <defaultValue>'basic'</defaultValue>
       <description>pilih paket job</description>
       <id>3ee3ac98-df57-4927-bf6a-e44448678ad7</id>
       <masked>false</masked>
       <name>paket</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description>basic = 0, plus = 1, premium = 2</description>
+      <id>273fe60a-081c-4df3-aa81-9a78872d080e</id>
+      <masked>false</masked>
+      <name>buttonbandingkanpaket</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description>basic = 0, plus = 1, premium = 2</description>
+      <id>70d59ec8-8de2-4b56-af70-fb454a494866</id>
+      <masked>false</masked>
+      <name>buttonpilihpaket</name>
    </variable>
    <variable>
       <defaultValue>'Paket Job Desain Kontes Paket Job Desain Kontes Paket Job Desain Kontes Paket Job Desain Kontes Paket Job Desain Kontes'</defaultValue>
@@ -35,20 +49,6 @@
    </variable>
    <variable>
       <defaultValue>'15'</defaultValue>
-      <description>tanggal bayar invoice</description>
-      <id>468b542e-8785-4982-839e-bdc073a967fc</id>
-      <masked>false</masked>
-      <name>tanggalbayar</name>
-   </variable>
-   <variable>
-      <defaultValue>'Maret 2023'</defaultValue>
-      <description></description>
-      <id>1d4d3ceb-5390-49a0-98d8-11c6b83e3959</id>
-      <masked>false</masked>
-      <name>bulanbayar</name>
-   </variable>
-   <variable>
-      <defaultValue>'15'</defaultValue>
       <description>tanggal penyelesaian pekerjaan</description>
       <id>afc8175b-99d3-4329-a9e1-577946b6c08c</id>
       <masked>false</masked>
@@ -56,28 +56,42 @@
    </variable>
    <variable>
       <defaultValue>'Juni 2023'</defaultValue>
-      <description></description>
+      <description>bulan penyelesaian pekerjaan</description>
       <id>3ec2654f-6a7f-4323-90fb-a84d5a2a09b6</id>
       <masked>false</masked>
       <name>bulandeadline</name>
    </variable>
    <variable>
-      <defaultValue>'transfer'</defaultValue>
-      <description></description>
+      <defaultValue>'deposit'</defaultValue>
+      <description>pilih metode pembayaran</description>
       <id>f6bf8c89-f3f7-4b59-930a-fef320d359af</id>
       <masked>false</masked>
       <name>bayar</name>
    </variable>
    <variable>
+      <defaultValue>'15'</defaultValue>
+      <description>tanggal bayar invoice</description>
+      <id>468b542e-8785-4982-839e-bdc073a967fc</id>
+      <masked>false</masked>
+      <name>tanggalbayar</name>
+   </variable>
+   <variable>
+      <defaultValue>'Maret 2023'</defaultValue>
+      <description>bulan bayar invoice</description>
+      <id>1d4d3ceb-5390-49a0-98d8-11c6b83e3959</id>
+      <masked>false</masked>
+      <name>bulanbayar</name>
+   </variable>
+   <variable>
       <defaultValue>'vamfMTv6qshyTZrXqRVQdqxQ1'</defaultValue>
-      <description></description>
+      <description>password jika memilih pembayaran deposit</description>
       <id>caef87f3-2623-43f7-909c-e94dc917241f</id>
       <masked>false</masked>
       <name>godpassowrd</name>
    </variable>
    <variable>
       <defaultValue>'C:\\Users\\ekokr\\OneDrive\\Pictures\\01. Katalon Upload\\dummy.png'</defaultValue>
-      <description>bukti pembayaran</description>
+      <description>bukti pembayaran jika memilih pembayaran metode transfer</description>
       <id>22b1cd06-f0e5-46d6-82f4-1228c2965729</id>
       <masked>false</masked>
       <name>fileupload</name>

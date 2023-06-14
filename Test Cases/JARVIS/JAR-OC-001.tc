@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Approve Kontes</name>
+   <name>JAR-OC-001</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e13f111a-8ccb-4b76-8f16-a8b7cca18e8b</testCaseGuid>

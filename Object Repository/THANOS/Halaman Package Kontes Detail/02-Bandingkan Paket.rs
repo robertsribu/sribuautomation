@@ -10,12 +10,12 @@
          <value>//div[@id='pricing_tab_item_0']/div[3]/div/a/p</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@data-testid = 'btn_compare_package_contest_0']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.btn.btn-link.w-100.hide-mobile > p</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-testid = 'btn_compare_package_contest_${compare}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,7 +25,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>btn_compare_package_contest_0</value>
+      <value>btn_compare_package_contest_${compare}</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

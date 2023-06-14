@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Validasi Kontes telah terbuat</name>
+   <name>JAR-APD-001</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1f401d24-4e15-41b8-a86b-4c178f4f4b91</testCaseGuid>
+   <testCaseGuid>6d38c8de-4a31-40e4-bff6-81430a73a96d</testCaseGuid>
 </TestCaseEntity>

@@ -20,17 +20,17 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('THANOS/LOGIN/Login Client'), [('usernameclient') : 'ekoclient', ('passwordclient') : 'mobile123+'], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('THANOS/Dashboard Client/Inbox'))
+WebUI.click(findTestObject('THANOS/Dashboard Client/Menu Inbox/Inbox'))
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.setText(findTestObject('THANOS/Dashboard Client/Input Search - Inbox'), 'ekokrismn')
+WebUI.setText(findTestObject('THANOS/Dashboard Client/Menu Inbox/Input Search - Inbox'), 'ekokrismn')
 
-WebUI.click(findTestObject('THANOS/Dashboard Client/Button Cari - Inbox'))
+WebUI.click(findTestObject('THANOS/Dashboard Client/Menu Inbox/Button Cari - Inbox'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('THANOS/Dashboard Client/List Freelancer - Inbox'))
+WebUI.click(findTestObject('THANOS/Dashboard Client/Menu Inbox/List Freelancer - Inbox'))
 
 WebUI.delay(3)
 

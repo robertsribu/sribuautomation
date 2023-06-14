@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Order Kontes</name>
+   <name>STA-OC-001</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ffd9bf33-a279-4759-81c4-61bb85a75251</testCaseGuid>
    <variable>
-      <defaultValue>'silver'</defaultValue>
+      <defaultValue>'bronze'</defaultValue>
       <description>input paket kontes</description>
       <id>bc51c400-c577-4410-b8e0-da83f32c6ec3</id>
       <masked>false</masked>
       <name>paket</name>
    </variable>
    <variable>
-      <defaultValue>'1'</defaultValue>
+      <defaultValue>'0'</defaultValue>
+      <description>bronze = 0, silver = 1, gold = 2</description>
+      <id>f2a004ab-461c-4fe8-bcea-a2321f29bb72</id>
+      <masked>false</masked>
+      <name>bandingkanpaket</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
       <description>bronze = 0, silver = 1, gold = 2</description>
       <id>3482b292-de67-4455-816b-58aa0fa2dae0</id>
       <masked>false</masked>
       <name>buttonpilihpaket</name>
    </variable>
    <variable>
-      <defaultValue>'Desain Kontes Untuk coba Test auto'</defaultValue>
+      <defaultValue>'KONTES DESAIN LOGO AUTO 33'</defaultValue>
       <description>input judul kontes</description>
       <id>042d3b7a-0c64-4e38-82f2-3813e738bb08</id>
       <masked>false</masked>

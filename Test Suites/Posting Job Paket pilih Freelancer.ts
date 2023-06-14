@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Posting Kontes Desain Logo</name>
+   <name>Posting Job Paket pilih Freelancer</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,119 +10,113 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>7dbfa10b-0bc5-4acf-97d9-350e81c6053d</testSuiteGuid>
+   <testSuiteGuid>f3018985-5b73-44e7-aa51-24abb91f5dd8</testSuiteGuid>
    <testCaseLink>
-      <guid>ff09eeda-ebc4-4731-9429-a312587091e4</guid>
+      <guid>9da1a844-27f3-4ca3-8460-9cda9a258e74</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/THANOS/ORDER KONTES/STA-OC-001</testCaseId>
+      <testCaseId>Test Cases/THANOS/PAKET JOB/STA-JPPRIV-001</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>bc51c400-c577-4410-b8e0-da83f32c6ec3</variableId>
+         <variableId>4d3dfb7d-0f00-4c80-b013-1b66219b8118</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3482b292-de67-4455-816b-58aa0fa2dae0</variableId>
+         <variableId>03db5747-3ddc-472d-9613-ab061f0ab701</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>042d3b7a-0c64-4e38-82f2-3813e738bb08</variableId>
+         <variableId>bd9d02f0-5a06-45f1-815c-af45b5955553</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>7edeea1e-38a3-4383-ac12-f795a1d5b7d2</variableId>
+         <variableId>e7b05560-66a8-4c47-b2d0-8c84e0687e88</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>a96d50ca-3a7f-46a6-aeaa-ff0700503b22</variableId>
+         <variableId>e0c1bda1-7144-4186-8fc0-c883069e14b1</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>69df6d8a-4e94-4244-99b0-745816a0661a</variableId>
+         <variableId>4bf209d9-a7bf-47ca-8147-fcb536f3cc3d</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>2f4c436d-7722-4bf6-8d64-ddb6d964f66e</variableId>
+         <variableId>7c27e4cb-4139-4459-b2b1-8feb1d60ae37</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>4ed51062-1391-4411-822c-55a7becda4cc</variableId>
+         <variableId>32444ef0-f46c-46e8-913c-89d55bb2d6af</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>4f7c27db-a0d5-4a4c-92bf-eff4de130e7e</variableId>
+         <variableId>f809e03f-d5bc-4d72-b9db-962f9d374507</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>3a1c19bf-f43b-4243-b9b5-4f3266a441e4</variableId>
+         <variableId>609fa8fe-feee-440b-b377-400d075ad1ca</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>452e92c8-da71-40f4-83a7-9c91f72a0405</variableId>
+         <variableId>16489ca7-d5e3-422b-ba15-d189f322efc0</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>7ce86e29-82d3-470e-a932-a42057b71b49</variableId>
+         <variableId>9b41f3e2-e771-49ca-873b-d05dfa28a104</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b428c94e-a672-4667-ab8f-bea1563b06a2</variableId>
+         <variableId>ea1945a0-d7a1-457b-af28-ea62b8197887</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>d7d09fb4-3c9b-4da4-88d3-80f453345b3c</variableId>
+         <variableId>810d5aa7-be34-43c3-b0e1-062dfc0eb468</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>f2a004ab-461c-4fe8-bcea-a2321f29bb72</variableId>
+         <variableId>30fec6d0-2ceb-4151-b191-00ff6c49395a</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0be6d829-227a-4ab8-bb06-f8f4cc4df793</guid>
+      <guid>3dbda608-5a6d-4b84-bf79-0ff50f40cff6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JARVIS/JAR-OC-001</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>32d58777-2b2a-4412-93e9-8c5709d67e35</variableId>
-      </variableLink>
+      <testCaseId>Test Cases/JARVIS/JAR-APD-001</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bd6f916d-b6f8-4baa-bcc1-4824df74c48c</guid>
+      <guid>ec859306-003d-4a6c-be0a-d55c8d93f8d2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/THANOS/ORDER KONTES/STA-OC-002</testCaseId>
+      <testCaseId>Test Cases/THANOS/PAKET JOB/STA-VALJ-002</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
