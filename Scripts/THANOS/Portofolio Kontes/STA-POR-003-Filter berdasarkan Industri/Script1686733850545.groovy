@@ -25,19 +25,19 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('THANOS/Homepage/Menu Portfolio'))
 
-WebUI.click(findTestObject('THANOS/Portofolio Kontes/Filter Subcat'))
+WebUI.click(findTestObject('THANOS/Portofolio Kontes/Filter Industri'))
 
-subcat1 = WebUI.getText(findTestObject('THANOS/Portofolio Kontes/Sub Category Pertama'))
+industri1 = WebUI.getText(findTestObject('THANOS/Portofolio Kontes/Industri Pertama'))
 
-println(subcat1)
+println(industri1)
 
-WebUI.click(findTestObject('THANOS/Portofolio Kontes/Sub Category Pertama'))
+WebUI.click(findTestObject('THANOS/Portofolio Kontes/Industri Pertama'))
 
 WebUI.click(findTestObject('THANOS/Portofolio Kontes/Card Porto 1'))
 
-contestoverviewtitle = WebUI.getText(findTestObject('THANOS/Contest Overview/Contest Overview Title'))
+contestoverviewindustry = WebUI.getText(findTestObject('THANOS/Contest Overview/Contest Overview Industri'))
 
-if (contestoverviewtitle.contains(subcat1)) {
+if (WebUI.verifyMatch(contestoverviewindustry, industri1, false)) {
     println('Porto Kontes sudah sesuai dengan filter')
 } else {
     println('Porto Kontes tidak sesuai')
@@ -46,4 +46,3 @@ if (contestoverviewtitle.contains(subcat1)) {
 WebUI.takeFullPageScreenshot()
 
 WebUI.closeBrowser()
-

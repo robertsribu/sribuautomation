@@ -21,13 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.setViewPortSize(1440, 900)
 
-WebUI.navigateToUrl('http://128.199.177.111:8002/id/portfolio-contest')
+WebUI.navigateToUrl('https://www.sribu.com/id/error/404')
 
-WebUI.click(findTestObject('null'))
+// Memeriksa keberadaan elemen TITLE
+isTitlePresent = WebUI.verifyElementPresent(findTestObject('Object Repository/TITLE LANDING PAGE'), 1, FailureHandling.CONTINUE_ON_FAILURE)
 
-subcategory = WebUI.getText(findTestObject('null'))
-
-println(subcategory)
-
-WebUI.click(findTestObject('null'))
+// Memeriksa Landing Page memiliki Title yang menunjukkan Landing Page sukses terbuka
+if (isTitlePresent) {
+    println('LANDING PAGE MEMILIKI TITLE')
+} else {
+    println('LANDING PAGE TIDAK MEMILIKI TITLE')
+}
 

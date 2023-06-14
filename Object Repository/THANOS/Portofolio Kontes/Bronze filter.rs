@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Sub Kategori Desain Logo</name>
+   <name>Bronze filter</name>
    <tag></tag>
-   <elementGuidId>5658e3ad-a761-4150-a53f-a44666afb0fa</elementGuidId>
+   <elementGuidId>5c336103-d4f4-4725-95df-d4e60f19cd00</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'navbar_subcategory_3_2_0']</value>
+         <value>//*[@data-testid = 'packageFilter_1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>navbar_subcategory_3_2_0</value>
-      <webElementGuid>bc89ad93-5fc8-4e0d-9b45-09678d47f6d0</webElementGuid>
+      <value>packageFilter_1</value>
+      <webElementGuid>37670572-d234-4999-b118-fe80c580b2d6</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

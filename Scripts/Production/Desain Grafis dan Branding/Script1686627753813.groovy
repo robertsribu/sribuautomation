@@ -37,14 +37,15 @@ for (int row = 1; row <= testData.getRowNumbers(); row++) {
     WebUI.setViewPortSize(1440, 900)
 
     WebUI.refresh(FailureHandling.CONTINUE_ON_FAILURE)
-	
-	// Memeriksa keberadaan elemen TITLE
-	isTitlePresent = WebUI.verifyElementPresent(findTestObject('Object Repository/TITLE LANDING PAGE'), 1, FailureHandling.CONTINUE_ON_FAILURE)
-	
-	// Memeriksa Landing Page memiliki Title yang menunjukkan Landing Page sukses terbuka
-	if (isTitlePresent) {
-		println('LANDING PAGE MEMILIKI TITLE')
-	} else {
-		println('LANDING PAGE TIDAK MEMILIKI TITLE')
-	}
+
+    // Memeriksa keberadaan elemen TITLE
+    isTitlePresent = WebUI.verifyElementPresent(findTestObject('Object Repository/TITLE LANDING PAGE'), 1, FailureHandling.CONTINUE_ON_FAILURE)
+
+    // Memeriksa Landing Page memiliki Title yang menunjukkan Landing Page sukses terbuka
+    if (isTitlePresent) {
+        println('LANDING PAGE MEMILIKI TITLE')
+    } else {
+        println('LANDING PAGE TIDAK MEMILIKI TITLE')
+    }
 }
+

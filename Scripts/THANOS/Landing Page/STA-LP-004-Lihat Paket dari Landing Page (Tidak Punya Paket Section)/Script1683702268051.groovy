@@ -23,9 +23,9 @@ WebUI.setViewPortSize(1440, 900)
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.mouseOver(findTestObject('Landing Page/Kategori Desain Kemasan Label'))
+WebUI.mouseOver(findTestObject('THANOS/Landing Page/Kategori Desain Grafis dan Branding'))
 
-WebUI.click(findTestObject('Landing Page/Desain Buku/Sub Kategori Desain Buku'))
+WebUI.click(findTestObject('THANOS/Landing Page/Desain Buku/Sub Category Desain Buku'))
 
 WebUI.click(findTestObject('Landing Page/Desain Logo/Button Cek Harga Paket'))
 
