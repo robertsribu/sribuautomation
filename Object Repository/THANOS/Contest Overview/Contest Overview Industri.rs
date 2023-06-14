@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Sub Kategori Desain Buku</name>
+   <name>Contest Overview Industri</name>
    <tag></tag>
-   <elementGuidId>2c1c1a4b-30e9-4e64-b435-b74210be4465</elementGuidId>
+   <elementGuidId>548294a4-c51d-43f2-ab1e-da476eeec685</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'navbar_subcategory_2_1_0']</value>
+         <value>//*[@class = 'industry_project_contest']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,9 +15,9 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-testid</name>
+      <name>class</name>
       <type>Main</type>
-      <value>navbar_subcategory_2_1_0</value>
-      <webElementGuid>c63b0451-1d91-400e-bef9-5ac0a0985f18</webElementGuid>
+      <value>industry_project_contest</value>
+      <webElementGuid>8d958282-2890-4467-af35-86eb93e5a974</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

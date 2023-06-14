@@ -11,8 +11,17 @@
       </entry>
       <entry>
          <key>BASIC</key>
+         <value>//*[@data-testid = 'seo_title']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>seo_title</value>
+      <webElementGuid>4be478d3-d9ae-47d7-96e5-33c39e4cf821</webElementGuid>
+   </webElementProperties>
 </WebElementEntity>

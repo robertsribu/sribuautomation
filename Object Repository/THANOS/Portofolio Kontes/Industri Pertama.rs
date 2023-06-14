@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Sub Kategori Desain Logo</name>
+   <name>Industri Pertama</name>
    <tag></tag>
-   <elementGuidId>5658e3ad-a761-4150-a53f-a44666afb0fa</elementGuidId>
+   <elementGuidId>c6d64b26-ab89-4821-946c-27c47f1a29cd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'navbar_subcategory_3_2_0']</value>
+         <value>//*[@data-testid = 'industry_1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>navbar_subcategory_3_2_0</value>
-      <webElementGuid>bc89ad93-5fc8-4e0d-9b45-09678d47f6d0</webElementGuid>
+      <value>industry_1</value>
+      <webElementGuid>b370a0fa-659e-41d2-807d-204696f37b7c</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

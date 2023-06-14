@@ -25,19 +25,23 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('THANOS/Homepage/Menu Portfolio'))
 
-WebUI.click(findTestObject('THANOS/Portofolio Kontes/Filter Subcat'))
+WebUI.click(findTestObject('THANOS/Portofolio Kontes/Filter Jenis Paket'))
 
-subcat1 = WebUI.getText(findTestObject('THANOS/Portofolio Kontes/Sub Category Pertama'))
+if (jenispaket == 'bronze') {
+    WebUI.click(findTestObject('THANOS/Portofolio Kontes/Bronze filter'))
+} else if (jenispaket == 'silver') {
+    WebUI.click(findTestObject('THANOS/Portofolio Kontes/Silver filter'))
+} else {
+    WebUI.click(findTestObject('THANOS/Portofolio Kontes/Gold filter'))
+}
 
-println(subcat1)
+filterdipilih = WebUI.getText(findTestObject('THANOS/Portofolio Kontes/Filter Jenis Paket'))
 
-WebUI.click(findTestObject('THANOS/Portofolio Kontes/Sub Category Pertama'))
+println(filterdipilih)
 
-WebUI.click(findTestObject('THANOS/Portofolio Kontes/Card Porto 1'))
+jenispaketlabel = WebUI.getText(findTestObject('THANOS/Portofolio Kontes/Badge Kontes Jenis Paket'))
 
-contestoverviewtitle = WebUI.getText(findTestObject('THANOS/Contest Overview/Contest Overview Title'))
-
-if (contestoverviewtitle.contains(subcat1)) {
+if (jenispaketlabel.contains(filterdipilih)) {
     println('Porto Kontes sudah sesuai dengan filter')
 } else {
     println('Porto Kontes tidak sesuai')

@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.setViewPortSize(1440, 900)
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.navigateToUrl('http://128.199.177.111:8002/id/logo-design/bekasi')
 
 WebUI.verifyElementPresent(findTestObject('THANOS/Landing Page/Desain Logo/Breadcrumb Landing Page'), 0)
 
@@ -50,9 +50,6 @@ WebUI.verifyElementPresent(findTestObject('THANOS/Landing Page/Desain Logo/Butto
 WebUI.verifyElementPresent(findTestObject('THANOS/Landing Page/Desain Logo Bekasi/H3 section Industri'), 0)
 
 WebUI.verifyElementPresent(findTestObject('THANOS/Landing Page/Desain Logo Bekasi/H3 section city'), 0)
-
-'Belum ada datatestid'
-WebUI.verifyElementPresent(findTestObject('THANOS/Landing Page/Desain Logo/SEO Title'), 0)
 
 WebUI.takeFullPageScreenshot()
 

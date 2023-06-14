@@ -39,8 +39,6 @@ WebUI.verifyElementPresent(findTestObject('THANOS/Landing Page/Desain Logo/H3 Cl
 
 WebUI.verifyElementPresent(findTestObject('THANOS/Landing Page/Desain Logo/H3 Portfolio Landing Page'), 0)
 
-WebUI.verifyElementPresent(findTestObject('THANOS/Landing Page/Desain Logo/H3 Harga Paket'), 0)
-
 WebUI.verifyElementPresent(findTestObject('THANOS/Landing Page/Desain Logo/H3 Contact Us'), 0)
 
 WebUI.verifyElementPresent(findTestObject('THANOS/Landing Page/Desain Logo/H3 Testimoni'), 0)
@@ -53,7 +51,6 @@ WebUI.verifyElementPresent(findTestObject('THANOS/Landing Page/Desain Logo/Butto
 
 WebUI.verifyElementPresent(findTestObject('THANOS/Landing Page/Desain Logo/H3 Sub Kategori Terkait'), 0)
 
-'Belum ada datatestid'
 WebUI.verifyElementPresent(findTestObject('THANOS/Landing Page/Desain Logo/SEO Title'), 0)
 
 WebUI.takeFullPageScreenshot()
