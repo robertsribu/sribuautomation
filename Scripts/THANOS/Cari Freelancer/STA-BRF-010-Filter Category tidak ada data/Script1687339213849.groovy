@@ -25,11 +25,13 @@ WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('THANOS/Homepage/Menu Cari Freelancer'))
 
-WebUI.click(findTestObject('THANOS/Cari Freelancer/Filter Kategori Desain Grafis Branding'))
+WebUI.click(findTestObject('THANOS/Cari Freelancer/Dropdown Filter Kategori (Belum ada datatestid)'))
 
-WebUI.click(findTestObject('THANOS/Cari Freelancer/Filter Sub Kategori Desain Logo'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('THANOS/Cari Freelancer/Kategori di filter', [('kategoridipilih') : filterkategori, ('kategori') : textkategori]))
 
-WebUI.scrollToElement(findTestObject('THANOS/Cari Freelancer/Filter Sub Kategori Desain Logo'), 0)
+WebUI.verifyElementVisible(findTestObject('THANOS/Cari Freelancer/Notification Data Kosong'))
+
+WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 

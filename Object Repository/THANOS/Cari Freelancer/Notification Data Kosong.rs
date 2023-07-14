@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Filter Sub Kategori Desain Logo</name>
+   <name>Notification Data Kosong</name>
    <tag></tag>
-   <elementGuidId>70b88806-8608-4f44-be01-3a66f0ec521c</elementGuidId>
+   <elementGuidId>c1b9d976-b63a-43f0-8da9-8525d8983b85</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'label_filter_subcategories_6_16']</value>
+         <value>//*[@data-testid = 'text_notification_error']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>label_filter_subcategories_6_16</value>
-      <webElementGuid>6501ad69-beaf-4d7b-8c28-874b31ce9b0f</webElementGuid>
+      <value>text_notification_error</value>
+      <webElementGuid>9d431b99-cb22-4d40-a29d-767f0d6041cd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

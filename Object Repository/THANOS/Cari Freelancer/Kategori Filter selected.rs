@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Filter Kategori Desain Grafis Branding</name>
+   <name>Kategori Filter selected</name>
    <tag></tag>
-   <elementGuidId>4186a501-f661-4f3c-9a2e-f63380c7aa4b</elementGuidId>
+   <elementGuidId>e0c7709d-f61a-477f-8978-4d26751c1966</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'label_filter_categories_6']</value>
+         <value>//*[@data-testid = 'search_selected_category']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>label_filter_categories_6</value>
-      <webElementGuid>8f13e6ef-db09-4057-8465-41a6599c491b</webElementGuid>
+      <value>search_selected_category</value>
+      <webElementGuid>9b5d1247-232e-4222-a860-e7715de2f614</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
