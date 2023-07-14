@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>STA-REG-001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab80d33a-5580-4e39-bc9d-c8f53c088baf</testCaseGuid>
+   <variable>
+      <defaultValue>'Client Auto 001'</defaultValue>
+      <description></description>
+      <id>242d7ccf-c22e-4bf3-900b-d844412843a7</id>
+      <masked>false</masked>
+      <name>namalengkap1</name>
+   </variable>
+   <variable>
+      <defaultValue>'clientauto001@mailinator.com'</defaultValue>
+      <description></description>
+      <id>16df321f-3fed-410b-b1a8-13b38055e05e</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mobile123+'</defaultValue>
+      <description></description>
+      <id>70aa7269-f96c-4ba6-a825-fa57e0768835</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'105'</defaultValue>
+      <description></description>
+      <id>314c0004-3c85-4990-a98b-7b8ee5f0659a</id>
+      <masked>false</masked>
+      <name>kodenegara</name>
+   </variable>
+   <variable>
+      <defaultValue>'88998899001'</defaultValue>
+      <description></description>
+      <id>4b129997-fb7a-4b30-9edd-f421b9269e9b</id>
+      <masked>false</masked>
+      <name>notelp</name>
+   </variable>
+   <variable>
+      <defaultValue>'Client Auto 001'</defaultValue>
+      <description></description>
+      <id>0599a9f5-83b2-45c3-aa67-43da5a16a2af</id>
+      <masked>false</masked>
+      <name>namalengkap2</name>
+   </variable>
+   <variable>
+      <defaultValue>'clientauto001'</defaultValue>
+      <description></description>
+      <id>56976a4d-5fa2-45f8-bda3-ae5b60810b30</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'4'</defaultValue>
+      <description></description>
+      <id>3bf04851-f5be-41a6-953a-c1521ab889fe</id>
+      <masked>false</masked>
+      <name>industri</name>
+   </variable>
+</TestCaseEntity>

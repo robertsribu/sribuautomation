@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>STA-REG-017</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1638649d-6581-4098-a7ab-ac034590bc6b</testCaseGuid>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description></description>
+      <id>ebbcd36f-e71e-415a-be01-f901110c9727</id>
+      <masked>false</masked>
+      <name>buttonbelipaketkontes</name>
+   </variable>
+</TestCaseEntity>

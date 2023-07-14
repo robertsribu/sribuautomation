@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//*[@data-testid = 'dropdown_open_registerDropdown']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;login-section&quot;]/div/div</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -18,6 +22,5 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>dropdown_open_registerDropdown</value>
-      <webElementGuid>9640b6f3-c37c-4398-94b6-a42784410961</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

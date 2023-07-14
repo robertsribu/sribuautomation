@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>STA-REG-003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6e8e6769-76b5-426c-8cac-7d535bcdb918</testCaseGuid>
+   <variable>
+      <defaultValue>'Client Testing Auto 002'</defaultValue>
+      <description></description>
+      <id>21f85764-99a9-4e15-955d-07360739fb0e</id>
+      <masked>false</masked>
+      <name>namalengkap</name>
+   </variable>
+   <variable>
+      <defaultValue>'dummytest102@mailinator.com'</defaultValue>
+      <description></description>
+      <id>09886be4-91e0-486d-ba01-3360ed1a9753</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mobile123+'</defaultValue>
+      <description></description>
+      <id>c53cd95e-6c0d-4f52-819b-55320f4f6664</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'105'</defaultValue>
+      <description></description>
+      <id>18b51e1a-628f-4f39-b86a-8d3b8cee8ece</id>
+      <masked>false</masked>
+      <name>kodenegara</name>
+   </variable>
+   <variable>
+      <defaultValue>'222222222102'</defaultValue>
+      <description></description>
+      <id>c69b174e-cefb-4cb3-9439-e738082e1821</id>
+      <masked>false</masked>
+      <name>notelp</name>
+   </variable>
+</TestCaseEntity>

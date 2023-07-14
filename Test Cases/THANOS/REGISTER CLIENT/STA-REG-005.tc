@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>STA-REG-005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2dc25de2-a872-4ffa-9ab1-5b3354e27081</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>abd7db4e-8147-4873-85f1-2e4f2889d15a</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>58b2c8d4-8bec-477c-9787-9fe8398b4940</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'105'</defaultValue>
+      <description></description>
+      <id>2256a267-dbb2-45cb-b722-b9e404b2703a</id>
+      <masked>false</masked>
+      <name>kodenegara</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>867f7126-4034-41be-babc-c0f45eb9a438</id>
+      <masked>false</masked>
+      <name>notelp</name>
+   </variable>
+</TestCaseEntity>

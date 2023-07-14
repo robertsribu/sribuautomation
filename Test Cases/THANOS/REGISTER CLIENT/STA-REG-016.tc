@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>STA-REG-016</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4ea291b3-f7e8-4507-b322-f483bbf11373</testCaseGuid>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description></description>
+      <id>1818a4ed-5110-4512-b816-f8a0a3463d91</id>
+      <masked>false</masked>
+      <name>buttonpilihpaketjob</name>
+   </variable>
+</TestCaseEntity>

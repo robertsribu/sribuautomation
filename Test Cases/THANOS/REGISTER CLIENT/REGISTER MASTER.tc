@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REGISTER MASTER</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e791b072-6ecb-4052-b5ec-638e28f7e874</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>edc6cf24-03bd-494e-8c02-e57d76d551cf</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>22084e55-2802-404d-bcc9-7557abe0f110</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'105'</defaultValue>
+      <description></description>
+      <id>9c2407e6-df90-4a57-a1b9-c24c57613f32</id>
+      <masked>false</masked>
+      <name>kodenegara</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aac2935c-5068-4543-8a87-c0f9138b7aa6</id>
+      <masked>false</masked>
+      <name>notelp</name>
+   </variable>
+</TestCaseEntity>

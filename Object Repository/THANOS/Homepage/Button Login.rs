@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'btn_login']</value>
+         <value>//*[@data-testid = 'login-navbar']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>btn_login</value>
-      <webElementGuid>1e6154ff-a3a9-40c3-93e6-623022505a03</webElementGuid>
+      <value>login-navbar</value>
    </webElementProperties>
 </WebElementEntity>

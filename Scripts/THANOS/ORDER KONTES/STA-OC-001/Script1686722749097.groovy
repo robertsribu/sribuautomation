@@ -33,7 +33,7 @@ WebUI.click(findTestObject('THANOS/Halaman Package Kontes List/Kontes Desain log
 
 WebUI.scrollToPosition(0, 230)
 
-WebUI.click(findTestObject('THANOS/Halaman Package Kontes Detail/02-Bandingkan Paket', [('compare') : bandingkanpaket]))
+WebUI.click(findTestObject('THANOS/Halaman Package Kontes Detail/Button Bandingkan Paket kontes', [('compare') : bandingkanpaket]))
 
 'pilih paket kontes'
 if (paket == 'bronze') {
@@ -44,7 +44,7 @@ if (paket == 'bronze') {
     WebUI.click(findTestObject('THANOS/Halaman Package Kontes Detail/Pricing gold'))
 }
 
-WebUI.click(findTestObject('THANOS/Halaman Package Kontes Detail/01-button pilih paket', [('id') : buttonpilihpaket]))
+WebUI.click(findTestObject('THANOS/Halaman Package Kontes Detail/Button Pilih Paket Kontes', [('id') : buttonpilihpaket]))
 
 WebUI.setText(findTestObject('THANOS/Edit Brief Kontes/Edit Brief Kontes Desain Logo/01-judul kontes'), judulkontes)
 

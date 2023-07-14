@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@data-testid = 'btn-search-job-home']</value>
+         <value>//*[@data-testid = 'order-package-navbar']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,7 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>btn-search-job-home</value>
-      <webElementGuid>7b34a371-b844-4e31-81b9-0dc19737141b</webElementGuid>
+      <value>order-package-navbar</value>
    </webElementProperties>
 </WebElementEntity>

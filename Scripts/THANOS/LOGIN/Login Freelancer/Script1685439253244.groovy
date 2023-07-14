@@ -23,21 +23,21 @@ WebUI.setViewPortSize(1440, 900)
 
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.click(findTestObject('THANOS/Homepage/01-button login'))
+WebUI.click(findTestObject('THANOS/Homepage/Button Login'))
 
 WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Halaman login'), 0)
 
-WebUI.setText(findTestObject('THANOS/Halaman Login/02-username'), GlobalVariable.userfreelancer)
+WebUI.setText(findTestObject('THANOS/Halaman Login/username'), GlobalVariable.userfreelancer)
 
-WebUI.setText(findTestObject('THANOS/Halaman Login/03-password'), GlobalVariable.passfreelancer)
+WebUI.setText(findTestObject('THANOS/Halaman Login/password'), GlobalVariable.passfreelancer)
 
-WebUI.click(findTestObject('THANOS/Halaman Login/04-icon mata'))
+WebUI.click(findTestObject('THANOS/Halaman Login/view password'))
 
 WebUI.delay(1)
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('THANOS/Halaman Login/05-submit login'))
+WebUI.click(findTestObject('THANOS/Halaman Login/Submit Login'))
 
 WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Login/Berhasil login'), 0)
 

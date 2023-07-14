@@ -5,43 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>32e0880a-fbc1-4600-90d6-9bb3600272aa</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>25b1e464-5d27-4c30-9937-dd75753a02c1</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>3e3bba7b-44a8-45b1-a00a-5206fd301388</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>d2d7a4b8-10a9-4ac6-8c11-d8084657459c</variableId>
-   </variableLinks>
    <variable>
-      <defaultValue>'1'</defaultValue>
-      <description>basic = 0, plus = 1, premium = 2</description>
-      <id>25b1e464-5d27-4c30-9937-dd75753a02c1</id>
-      <masked>false</masked>
-      <name>pilihfreelancer</name>
-   </variable>
-   <variable>
-      <defaultValue>'plus'</defaultValue>
+      <defaultValue>'15'</defaultValue>
       <description></description>
-      <id>3e3bba7b-44a8-45b1-a00a-5206fd301388</id>
+      <id>169e73cb-0292-48d7-98ad-7c20c7c49710</id>
       <masked>false</masked>
-      <name>paket</name>
-   </variable>
-   <variable>
-      <defaultValue>'1'</defaultValue>
-      <description></description>
-      <id>d2d7a4b8-10a9-4ac6-8c11-d8084657459c</id>
-      <masked>false</masked>
-      <name>buttonpilih</name>
+      <name>industri</name>
    </variable>
 </TestCaseEntity>
