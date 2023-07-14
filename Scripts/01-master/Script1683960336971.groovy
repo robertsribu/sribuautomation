@@ -21,15 +21,42 @@ WebUI.openBrowser('')
 
 WebUI.setViewPortSize(1440, 900)
 
-WebUI.navigateToUrl('https://www.sribu.com/id/error/404')
+WebUI.navigateToUrl('http://128.199.177.111:8002/id/dashboard/client/profile')
 
-// Memeriksa keberadaan elemen TITLE
-isTitlePresent = WebUI.verifyElementPresent(findTestObject('Object Repository/TITLE LANDING PAGE'), 1, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('THANOS/Halaman Login/username'), 'jujuj44442')
 
-// Memeriksa Landing Page memiliki Title yang menunjukkan Landing Page sukses terbuka
-if (isTitlePresent) {
-    println('LANDING PAGE MEMILIKI TITLE')
-} else {
-    println('LANDING PAGE TIDAK MEMILIKI TITLE')
-}
+WebUI.setText(findTestObject('THANOS/Halaman Login/password'), 'asdasd')
+
+WebUI.click(findTestObject('THANOS/Halaman Login/Submit Login'))
+
+WebUI.click(findTestObject('THANOS/Halaman Login/Button close alert toast'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('THANOS/Halaman Login/Button Lengkapi Disini'))
+
+WebUI.delay(1)
+
+WebUI.refresh()
+
+//Masuk ke Halaman Lengkapi Profile
+WebUI.waitForElementPresent(findTestObject('THANOS/Halaman Lengkapi Profile/Text 1 Langkah lagi menggunakan Sribu'), 20)
+
+WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Lengkapi Profile/Text 1 Langkah lagi menggunakan Sribu'), 1)
+
+WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Lengkapi Profile/Field Email'), 1)
+
+WebUI.verifyElementPresent(findTestObject('THANOS/Halaman Lengkapi Profile/Field No Telp'), 1)
+
+WebUI.setText(findTestObject('THANOS/Halaman Lengkapi Profile/Input username'), 'clientregis001')
+
+WebUI.scrollToElement(findTestObject('THANOS/Halaman Lengkapi Profile/Button Simpan Lengkapi Profile'), 1)
+
+WebUI.click(findTestObject('THANOS/Halaman Lengkapi Profile/Button dropdown Industri'))
+
+WebUI.click(findTestObject('THANOS/Halaman Lengkapi Profile/Select Industri', [('index') : industri]))
+
+WebUI.delay(1)
+
+WebUI.takeFullPageScreenshot()
 

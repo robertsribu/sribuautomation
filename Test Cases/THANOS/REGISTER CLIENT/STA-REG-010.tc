@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>STA-REG-010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e1d06b1-0872-4743-adbc-1d279db939c8</testCaseGuid>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description></description>
+      <id>1d3e2abe-11a6-4bf9-82d7-03c6a762fe46</id>
+      <masked>false</masked>
+      <name>buttonpilihpaket</name>
+   </variable>
+   <variable>
+      <defaultValue>'Register Client testing 003'</defaultValue>
+      <description></description>
+      <id>60902d15-f62b-40ad-af98-d9ff65cfe1ad</id>
+      <masked>false</masked>
+      <name>namalengkap</name>
+   </variable>
+   <variable>
+      <defaultValue>'stareg012@mailinator.com'</defaultValue>
+      <description></description>
+      <id>fc4cb020-074d-46db-bc5b-efb90cd02a74</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mobile123+'</defaultValue>
+      <description></description>
+      <id>9efc70ca-e0c1-4248-aa0d-7dcd33ac5f93</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'105'</defaultValue>
+      <description></description>
+      <id>f47f8938-9bf4-4f27-b635-a8a8d7eef59b</id>
+      <masked>false</masked>
+      <name>kodenegara</name>
+   </variable>
+   <variable>
+      <defaultValue>'888888888103'</defaultValue>
+      <description></description>
+      <id>39480cf0-f921-4861-b7a7-502c2ad82582</id>
+      <masked>false</masked>
+      <name>notelp</name>
+   </variable>
+</TestCaseEntity>
